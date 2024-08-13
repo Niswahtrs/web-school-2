@@ -1,0 +1,102 @@
+@media screen and (max-width: 922px) {
+  .galeri .col-4 {
+    width: 50%;
+    float: left;
+    padding: 10px;
+  }
+
+  .hero h1 {
+    font-size: 2.5rem;
+  }
+
+  .hero p {
+    font-size: 1.125rem;
+  }
+
+  .galeri .card-galeri h3 {
+    font-size: 1.125rem;
+  }
+
+  .galeri .card-galeri p {
+    font-size: 0.875rem;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .galeri .col-4 {
+    width: 100%;
+    padding: 10px;
+  }
+
+  .hero h1 {
+    font-size: 2rem;
+  }
+
+  .hero p {
+    font-size: 1rem;
+  }
+
+  .icon-galeri2 {
+    width: 75%;
+    height: auto;
+  }
+
+  h2 {
+    font-size: 16px;
+  }
+
+  .card-galeri img {
+    margin: 15px 0;
+  }
+
+  .galeri .card-galeri h3 {
+    font-size: 1rem;
+  }
+
+  .galeri .card-galeri p {
+    font-size: 0.875rem;
+  }
+}
+
+@media screen and (max-width: 350px) {
+  .hero h1 {
+    font-size: 1.5rem;
+  }
+
+  .hero p {
+    font-size: 0.875rem;
+  }
+
+  .galeri .card-galeri h3 {
+    font-size: 0.875rem;
+  }
+
+  .galeri .card-galeri p {
+    font-size: 0.75rem;
+  }
+}
+
+@media (max-width: 768px) {
+  footer .container {
+    flex-direction: column;
+    align-items: center;
+  }
+  footer .sec {
+    text-align: center;
+  }
+  footer .sec.kantor ul li a img {
+    margin: 0 auto;
+  }
+}
+
+@media (max-width: 480px) {
+  footer .sec ul li a {
+    font-size: 12px;
+  }
+  footer .sec h5 {
+    font-size: 16px;
+  }
+  footer .sec.aboutus img {
+    max-width: 120px;
+  }
+}

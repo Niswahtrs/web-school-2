@@ -1,5 +1,5 @@
 body {
-  font-family: "poppins", sans-serif;
+  font-family: "Poppins", sans-serif;
   height: 100vh;
   width: 100%;
 }
@@ -13,22 +13,15 @@ body {
   z-index: 2;
 }
 
-/* .nav-color {
-  transition: all ease-in-out 0.3s;
-} */
-
-.bg-transparent {
-  transition: all ease-in-out 0.3s;
-}
-
 .nav-link {
   font-size: 16px;
+  font-weight: 300;
   color: #ffff;
-  font-family: "poppins";
+  font-family: "Poppins";
   position: relative;
 }
 
-.nav-item .nav-link.active {
+.nav-link.active {
   color: #ffff;
   font-weight: bold;
 }
@@ -45,14 +38,23 @@ body {
   visibility: visible;
 }
 
+.nav-color {
+  background-color: #9b309d;
+  transition: all ease-in-out 0.3s;
+}
+
+.bg-transparent {
+  transition: all ease-in-out 0.3s;
+}
+
 .button-primary {
   padding: 5px 20px 5px 20px;
   font-size: 16;
-  font-family: "poppins";
+  font-family: "Poppins";
+  font-weight: 600;
   background-color: transparent;
   border: none;
   color: #ffff;
-  font-weight: bold;
   cursor: pointer;
   border: 1px solid #ffff;
   border-radius: 16px;
@@ -75,8 +77,9 @@ body {
   background-color: rgba(255, 255, 255, 0.2);
 }
 
+/* Styling Page Galeri */
 .hero {
-  height: 900px;
+  height: 1000px;
   width: 100%;
   background-image: url(../image/galeri/background.png);
   background-size: cover;
@@ -88,16 +91,18 @@ body {
   color: #ffff;
   font-weight: 700;
   font-size: 64px;
+  font-family: "Poppins";
   line-height: auto;
 }
 
 .hero-tagline p {
   color: #ffff;
   font-size: 20px;
+  font-weight: 300;
   font-family: "Poppins";
   margin-bottom: 60px;
-  margin-top: 20px;
-  width: 80%;
+  margin-top: 16px;
+  width: 70%;
 }
 
 .icon-galeri1 {
@@ -119,25 +124,30 @@ body {
 
 .col-12 h2 {
   font-size: 56px;
-  font-weight: 500;
+  font-weight: 700;
+  font-family: "Poppins";
   color: #19245f;
+  margin-bottom: -40px;
 }
 
 .col-12 span {
   font-size: 24px;
-  font-weight: 500;
+  font-weight: 400;
   color: #4facf6;
 }
 
 .card-galeri h3 {
   font-size: 24px;
-  font-weight: 500;
+  font-weight: 600;
   color: #19245f;
+  margin-top: 24px;
 }
 
 .card-galeri p {
   font-size: 16px;
+  font-weight: 300;
   color: #2e334e;
+  margin-top: 4px;
   width: 95%;
 }
 
@@ -145,7 +155,97 @@ body {
   border-radius: 24px;
   height: 320px;
   width: 400px;
+  margin-top: 80px;
 }
+
+/* Style Kontak */
+.kontak {
+  margin-top: 80px;
+  margin-bottom: 80px;
+}
+
+.icon-kontak1 {
+  z-index: 1;
+  opacity: 0.1;
+}
+
+.icon-kontak2 {
+  width: 752.67px;
+  height: 748px;
+  flex-shrink: 0;
+  margin-left: -90px;
+  margin-bottom: -20px;
+}
+
+.hero-kontak h1 {
+  color: #ffff;
+  font-weight: 700;
+  font-size: 64px;
+  font-family: "Poppins";
+  line-height: auto;
+}
+
+.hero-kontak p {
+  color: #ffff;
+  font-size: 20px;
+  font-weight: 300;
+  font-family: "Poppins";
+  margin-bottom: 60px;
+  margin-top: 16px;
+  width: 80%;
+}
+
+.kontak .row {
+  margin-top: 64px;
+}
+
+.kontak-item {
+  display: flex;
+  font-size: 24px;
+  font-weight: 600;
+  align-items: center;
+  margin-top: 40px;
+}
+
+.icon-kontak img {
+  width: 86px;
+  height: 86px;
+  margin-right: 24px;
+}
+
+.kontak-item a {
+  font-size: 24px;
+  font-weight: 600;
+  text-decoration: none;
+  color: #2e334e;
+  width: 280px;
+}
+
+.form-control {
+  border-radius: 8px;
+  margin-top: 40px;
+}
+
+.form-floating {
+  font-size: 20px;
+  color: #3a3b41;
+  font-weight: normal;
+}
+
+.button-kontak {
+  width: 100%;
+  height: 54px;
+  background: #ae39ff;
+  border: none;
+  border-radius: 24px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-size: 20px;
+  color: #ffff;
+  margin-top: 40px;
+}
+
+/* Slycing Footer */
 
 footer {
   position: relative;
@@ -164,12 +264,16 @@ footer .container {
 }
 
 footer .container .sec p {
-  width: 80%;
+  width: 70%;
+  color: #2e334e;
+  font-size: 20px;
+  margin-top: 24px;
 }
 
 footer .container .sec h5 {
   position: relative;
   font-weight: 600;
+  color: #1c2661;
 }
 
 .sec ul {
@@ -183,7 +287,7 @@ footer .container .sec h5 {
 
 .sec ul li a {
   text-decoration: none;
-  color: #000; /* Warna teks */
+  color: #404040;
   display: flex;
   align-items: center;
 }
@@ -192,11 +296,6 @@ ul li a img {
   margin-right: 10px;
   width: 20px;
   height: 20px;
-}
-
-.sec ul li a i {
-  margin-right: 8px;
-  color: #3b5998; /* Warna ikon sosial media, dapat diubah sesuai kebutuhan */
 }
 
 footer .container .sec p {
