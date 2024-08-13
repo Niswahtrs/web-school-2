@@ -1,0 +1,433 @@
+@import url("https://fonts.googleapis.com/css?family=Poppins");
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Poppins;
+}
+
+/* NAVBAR */
+.navbar {
+    background-color: transparent; /* Transparan */
+    padding: 10px 20px;
+    box-shadow: none; /* Menghilangkan bayangan */
+}
+
+.navbar-brand .logo {
+    margin-right: 15px;
+}
+
+.navbar-nav {
+    display: flex;
+    flex-direction: row; /* Horizontal layout */
+    margin-left: auto; /* Push items to the right */
+}
+
+.nav-item {
+    margin: 0 15px;
+    color: #ffffff;
+}
+
+.nav-link {
+    color: #ffffff;
+    font-weight: 400;
+    font-size: 20px;
+    font-family: Poppins, sans-serif;
+    text-decoration: none;
+    position: relative;
+}
+
+.nav-link:hover {
+    color: #ffffff;
+    font-weight: bold;
+}
+
+.nav-link.active {
+    color: #ffffff;
+    font-weight: bold;
+}
+
+.nav-link::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 35%;
+    width: 0;
+    height: 3px;
+    background-color: #ffffff;
+    visibility: hidden;
+    transition: width 0.2s ease;
+    border-radius: 2px;
+}
+
+.nav-link:hover::after,
+.nav-link.active::after {
+    width: 30%;
+    visibility: hidden;
+}
+
+.PPOB-button {
+    background-color: transparent; /* Transparan untuk background */
+    border: 2px solid #ffffff; /* Menampilkan border putih */
+    color: #ffffff;
+    font-family: Poppins, sans-serif;
+    font-size: 16px;
+    padding: 7px 25px;
+    border-radius: 50px;
+    text-decoration: none;
+    transition: background-color 0.5s, border-color 0.5s;
+}
+
+.PPOB-button:hover {
+    border-color: #ffffff;
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+.navbar-toggler {
+    display: none; /* Default: hidden */
+    font-size: 1.5rem;
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+/* Media query for mobile screens */
+@media (max-width: 991px) {
+    .navbar-nav {
+        flex-direction: column; /* Vertikal layout pada mobile */
+        width: 100%;
+    }
+
+    .nav-item {
+        margin: 10px 0;
+    }
+
+    .navbar-toggler {
+        display: block; /* Show toggle button on mobile */
+    }
+
+    .navbar-collapse {
+        margin-top: 10px;
+    }
+}
+
+/* footer */
+
+footer{
+    margin-top: 35px;
+}
+
+footer .container-fluid{
+    padding-top: 60px;
+    padding-left: 0px;
+    background: #e4e3e346;
+}
+
+footer .col-6{
+    padding-left:90px;
+    padding-right: 60px;
+}
+
+footer p{
+    margin-top: 20px;
+    color: #404040;
+    font-size: 18px;
+    text-align: left;
+}
+
+footer .social-media p{
+    margin-top: 14px;
+    color: #404040;
+    font-size: 18px;
+    text-align: left;
+}
+
+footer a p{
+    color: #ffff;
+    font-size: 20px;
+}
+
+footer a:hover{
+    color:#94c9ec;
+}
+
+footer h5{
+    color: #1C2661;
+    font-weight: bold;
+}
+
+footer .social-media {
+    margin-top: 0px;
+    display: flex;
+    align-items: center;
+}
+
+footer .social-media .col-1 {
+    display: flex;
+    align-items: center;
+}
+
+footer .social-icon {
+    margin-top: 0px;
+    width: 18px;
+    height: 18px;
+    margin-right: 10px;
+}
+
+footer .footer-wraper{
+    padding-top: 0px;
+}
+
+/* Background gambar */
+.background-image .bgimage {
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+    position: absolute;
+    top: -30%;
+    left: 0%;
+    z-index: -1;
+}
+
+.vector1 {
+    position: absolute; /* Position absolute to place over the background */
+    z-index: 2;
+    top: 0px;
+    right: 0px;
+    width: 50%;
+    transform: none;
+}
+
+/* (Artikel) content 1 */
+
+.content1{
+    position: relative;
+    z-index: 2;
+    padding: 0px 70px;
+  }
+
+.content1 .row{
+    height: auto;
+    padding-left: 40px;
+    display: flex;
+}
+
+.content1 .col .kartun1{
+    position: absolute;
+    display: flex;
+}
+
+.content1 .col-5{
+    margin-top: 100px;
+}
+
+img.kartun1{
+    max-width: 500px;
+    margin-left: 0px;
+    transform: translateY(-3%);
+}
+
+.content1 h2{
+    margin-top: 40px;
+    color: #ffffff;
+    font-size: 48px;
+    font-weight: 500;
+}
+
+.content1 p{
+    font-size: 20px;
+    color:#ffffff;
+    margin-top:30px;
+}
+
+/* content2 */
+
+.content2 .row{
+    margin-top: 200px;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.content2 .image img{
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.tanggal {
+    background-color: #AE39FF;
+    color: #ffffff;
+    font-family: Poppins, sans-serif;
+    font-size: 16px;
+    padding: 7px 25px;
+    border-radius: 50px;
+    text-decoration: none;
+}
+
+.content2 h3{
+    margin-top: 15px;
+    color: #1C2661;
+    font-weight: bold;
+}
+
+.content2 p{
+    margin-top: 10px;
+    margin-bottom: 0px;
+    text-align: justify;
+    font-size: 18px;
+}
+
+.content2 .penulis{
+    font-size: 15px;
+}
+
+.content2 .readmore{
+    margin-top: 0px;
+    text-decoration: none;
+    color: rgb(96, 192, 255);
+    font-weight: bold;
+}
+
+.content2 .readmore:hover{
+    color: rgb(88, 178, 238);
+}
+
+/* content3 */
+
+.content14 .row{
+    margin-top: 100px;
+    padding-top: 15px;
+    padding-right: 0px;
+}
+
+.content14 .col-md-4{
+    margin-bottom: 15px;
+}
+
+.content14 .gambar3{
+    padding-left: 110px;
+    padding-right: 110px;
+    padding-bottom: 80px;
+}
+
+.content14 .card{
+    position: relative;
+    padding-inline: 0px;
+    border-radius: 7%;
+    border: none;
+    background: #ffffff;
+    margin-bottom: 15px;
+}
+
+.content14 .card-body{
+    padding-left: 0px;
+    padding-right: 0;
+    max-height: 150px;
+}
+
+.card-img-top{
+    max-height: 406px;
+    height: 100%;
+    object-fit: cover;
+    max-width: 100%;
+}
+
+.content14 .card a{
+    text-decoration: none;
+}
+
+.content14 .card-body h4{
+    margin-top: 15px;
+    font-family: Poppins;
+    font-size: 18px;
+    color: #1C2661;
+    font-weight: 950;
+}
+
+.content14 .card-body p{
+    font-family: Poppins;
+    margin-top: 5px;
+    font-size: 16px;
+    color: #1C2661;
+    text-align: justify;
+}
+
+.content14 .readmore{
+    margin-top: 0px;
+    text-decoration: none;
+    color: rgb(96, 192, 255);
+    font-weight: bold;
+}
+
+.content14 .readmore:hover{
+    color: rgb(88, 178, 238);
+}
+
+.tanggal-card {
+    display: block;
+    background-color: #AE39FF;
+    color: #ffffff;
+    font-family: Poppins, sans-serif;
+    font-size: 14px;
+    padding: 5px 15px;
+    border-radius: 50px;
+    text-decoration: none;
+    text-align: center; /* Memusatkan teks tanggal */
+    position: absolute;
+    bottom: 0; /* Menempel pada bagian bawah card */
+    left: 50%;
+    transform: translateX(-50%) translateY(-450%);
+    width: auto;
+}
+
+/* readmore */
+/* CSS untuk mengatur ukuran gambar di content4 */
+.content4 .row {
+    display: grid;
+    margin-top: 50px;
+    place-items: center; /* Pusatkan gambar secara horizontal dan vertikal */ /* Pusatkan gambar di dalam container */
+}
+
+.content4 img {
+    width: 85%; /* Lebar gambar 75% dari lebar container */
+    height: auto; /* Menjaga rasio aspek gambar */
+    max-width: 100%; /* Memastikan gambar tidak melebihi lebar container */
+}
+
+.content5 .row{
+    padding-top: 30px;
+    padding-inline: 100px;
+}
+
+.content5 .tanggal {
+    position: relative;
+    background-color: #AE39FF;
+    color: #ffffff;
+    font-family: Poppins, sans-serif;
+    font-size: 16px;
+    padding: 7px 25px;
+    border-radius: 50px;
+    text-decoration: none;
+}
+
+.content5 h2{
+    margin-top: 15px;
+    color: #1C2661;
+    font-weight: bold;
+}
+
+.content5 .penulis{
+    color: #3A3B41;
+    font-size: 16px;
+}
+
+.content5 p{
+    margin-top: 5px;
+    color: #3A3B41;
+    font-size: 20px;
+    text-align: justify;
+}
+
+
