@@ -24,7 +24,7 @@
         data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
-      <div class="sidebar offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar"
+      <div class="sidebar offcanvas offcanvas-top" tabindex="-1" id="offcanvasNavbar"
         aria-labelledby="offcanvasNavbarLabel">
         <div class="offcanvas-header">
           <h5 class="offcanvas-title" id="offcanvasNavbarLabel"><img src="assets/logo/inagata.svg" alt="" width="100">
@@ -41,10 +41,10 @@
               <a class="nav-link" href="tentang.html">Tentang</a>
             </li>
             <li class="nav-item mx-2">
-              <a class="nav-link" href="#">Artikel</a>
+              <a class="nav-link" href="#">Galeri</a>
             </li>
             <li class="nav-item mx-2">
-              <a class="nav-link" href="#">Galeri</a>
+              <a class="nav-link" href="#">Artikel</a>
             </li>
             <li class="nav-item mx-2">
               <a class="nav-link" href="#">Kontak</a>
@@ -61,22 +61,24 @@
 
   <main>
     <!-- hero -->
-    <section id="hero" class="w-100">
-      <div class="hero-left">
-        <h1 class="pre-title">Tuntut Ilmu Untuk Masa Depan Yang Cerah</h1>
-        <p>
-          jelajahi semua pengetahuan dan ilmu bermanfaat yang berguna untuk
-          kehidupan anda kedepannya agar lebih bermanfaat dalam hidup anda dan
-          orang lain
-        </p>
-
-        <button class="btn"><a href="">Mulai belajar</a></button>
+    <section id="hero">
+      <img src="assets/element/Vector-beranda.svg" alt="" class="wave2">
+      <img src="assets/element/Vector-1.svg" alt="" class="wave1">
+      <div class="container-fluid">
+        <div class="container">
+          <div class="row">
+            <div class="title-hero col-md-6">
+              <h1>Tuntut Ilmu Untuk Masa Depan Yang Lebih Baik</h1>
+              <p>jelajahi semua pengetahuan dan ilmu yang berguna bersama kami, untuk kehidupan yang lebih bermanfaat</p>
+              <button class="my-4 text-decoration-none py-2 px-4 rounded-5"><a href="#"
+                class="text-white">Daftar Sekarang</a></button>
+            </div>
+            <div class="img col-md-6">
+              <img src="assets/element/beranda-1.svg" alt="">
+            </div>
+          </div>
+        </div>
       </div>
-      <div class="hero-right">
-        <img class="image img1" src="assets/element/beranda-1.svg" alt="" />
-      </div>
-      <img class="wave1 position-absolute start-0 bottom-0" src="assets/element/Vector-2.svg" alt="" />
-      <img class="wave2 position-absolute end-0 top-0" src="assets/element/Vector-3.svg" alt="" />
     </section>
     <!-- end of hero -->
 
@@ -178,6 +180,7 @@
             </div>
           </div>
         </div>
+      </div>
     </section>
     <!-- end of dokumentasi beranda -->
 
@@ -289,6 +292,8 @@
     <p>Copyright &#169; 2021. All rights reserved.</p>
   </div>
   <!-- end of footer -->
+
+  <script src="/assets/js/script-2.js"></script>
 </body>
 
 </html>
