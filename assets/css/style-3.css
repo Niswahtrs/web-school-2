@@ -39,8 +39,8 @@ body {
 }
 
 .nav-color {
-  background-color: #9b309d;
   transition: all ease-in-out 0.3s;
+  background: linear-gradient(to right, #734192, #9b309d);
 }
 
 .bg-transparent {
@@ -79,7 +79,7 @@ body {
 
 /* Styling Page Galeri */
 .hero {
-  height: 1000px;
+  height: 880px;
   width: 100%;
   background-image: url(../image/galeri/background.png);
   background-size: cover;
@@ -115,7 +115,7 @@ body {
   height: 766.231px;
   flex-shrink: 0;
   margin-left: -90px;
-  margin-bottom: -20px;
+  margin-bottom: -40px;
 }
 
 .galeri {
@@ -170,8 +170,8 @@ body {
 }
 
 .icon-kontak2 {
-  width: 752.67px;
-  height: 748px;
+  width: 750px;
+  height: 720px;
   flex-shrink: 0;
   margin-left: -90px;
   margin-bottom: -20px;

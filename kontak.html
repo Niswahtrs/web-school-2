@@ -12,6 +12,8 @@
     <link
         href="https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
         rel="stylesheet">
+    <!-- AOS -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <link rel="stylesheet" href="assets/css/style-3.css">
 </head>
 
@@ -30,7 +32,7 @@
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav mx-auto">
                     <li class="nav-item mx-2">
-                        <a class="nav-link" aria-current="page" href="index.html">Beranda</a>
+                        <a class="nav-link" href="index.html">Beranda</a>
                     </li>
                     <li class="nav-item mx-2">
                         <a class="nav-link" href="tentang.html">Tentang</a>
@@ -42,7 +44,7 @@
                         <a class="nav-link" href="artikel.html">Artikel</a>
                     </li>
                     <li class="nav-item mx-2">
-                        <a class="nav-link" href="kontak.html">Kontak</a>
+                        <a class="nav-link active" aria-current="page" href="kontak.html">Kontak</a>
                     </li>
                 </ul>
                 <div>
@@ -73,13 +75,13 @@
     <!-- Kontak -->
     <section class="kontak">
         <div class="container-fluid">
-            <div class="container">
+            <div class="container" data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-duration="1000">
                 <div class="col-12 text-center">
                     <span>Dapatkan informasi lengkap</span>
                     <h2>Kontak Kami</h2>
                 </div>
                 <div class="row">
-                    <div class="col-md-6">
+                    <div class="col-md-6" data-aos="fade-right" data-aos-duration="1000">
                         <div class="kontak-item mt-64">
                             <div class="icon-kontak">
                                 <img src="assets/image/kontak/telepon.png" alt="Telepon">
@@ -99,7 +101,7 @@
                             <a href="#">Jl. Soekarno Hatta J-12, Malang</a>
                         </div>
                     </div>
-                    <div class="col-md-6">
+                    <div class="col-md-6" data-aos="fade-left" data-aos-duration="1000">
                         <div class="input">
                             <div class="form-floating mb-3">
                                 <input type="text" class="form-control" id="floatingName" placeholder="Nama Anda">
@@ -129,7 +131,7 @@
 
     <!-- Footer -->
     <footer>
-        <div class="container">
+        <div class="container" data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-duration="1000">
             <div class="sec aboutus">
                 <a href="index.html">
                     <img src="assets/logo/inagata-2.svg" alt="logo inagata" />
@@ -172,6 +174,10 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
         crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
     <script src="assets/js/script.js"></script>
 </body>
 
