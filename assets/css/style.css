@@ -153,9 +153,17 @@ footer p a:hover{
     text-align: left;
 }
 
-footer .social-media p{
+footer .social-media p a{
     margin-top: 14px;
     color: #404040;
+    text-decoration: none;
+    font-size: 18px;
+    text-align: left;
+}
+
+footer .social-media p a{
+    margin-top: 14px;
+    color: #383838;
     font-size: 18px;
     text-align: left;
 }
