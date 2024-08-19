@@ -17,7 +17,6 @@ body {
   font-size: 16px;
   font-weight: 300;
   color: #ffff;
-  font-family: "Poppins";
   position: relative;
 }
 
@@ -50,7 +49,6 @@ body {
 .button-primary {
   padding: 5px 20px 5px 20px;
   font-size: 16;
-  font-family: "Poppins";
   font-weight: 600;
   background-color: transparent;
   border: none;
@@ -78,43 +76,43 @@ body {
 }
 
 /* Styling Page Galeri */
-.hero {
-  height: 900px;
+.hero-bg {
+  z-index: 1;
+  position: absolute;
   width: 100%;
-  background-image: url(../image/galeri/background.png);
   background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
 }
 
 .hero-tagline h1 {
   color: #ffff;
   font-weight: 700;
-  font-size: 40px;
-  font-family: "Poppins";
+  font-size: 38px;
   margin-top: 50%;
 }
 
 .hero-tagline p {
   color: #ffff;
-  font-size: 20px;
+  font-size: 18px;
   font-weight: 300;
-  font-family: "Poppins";
   margin-bottom: 60px;
   margin-top: 16px;
   width: 70%;
 }
 
 .icon-galeri1 {
-  z-index: 1;
-  opacity: 0.1;
+  z-index: 0;
+  position: absolute;
+  width: 100%;
+  /* z-index: 1;
+  position: absolute;
+  width: 100%; */
 }
 
 .icon-galeri2 {
   width: 550px;
   height: 600px;
-  margin-left: 40px;
-  margin-bottom: -10px;
+  margin-left: -20px;
+  margin-top: 150px;
 }
 
 .galeri {
@@ -124,7 +122,6 @@ body {
 .judul {
   font-size: 40px;
   font-weight: 700;
-  font-family: "Poppins";
   color: #19245f;
   margin-bottom: 2px;
 }
@@ -133,6 +130,7 @@ body {
   font-size: 20px;
   font-weight: 400;
   color: #4facf6;
+  margin-top: 80px;
 }
 
 .card-galeri h3 {
@@ -160,20 +158,41 @@ body {
 
 /* Style Kontak */
 .kontak {
-  margin-top: 80px;
-  margin-bottom: 80px;
+  margin-top: 100px;
+}
+
+.hero-tagline-kontak h1 {
+  color: #ffff;
+  font-weight: 700;
+  font-size: 38px;
+  margin-top: 10%;
+}
+
+.hero-tagline-kontak p {
+  color: #ffff;
+  font-size: 18px;
+  font-weight: 300;
+  margin-bottom: 60px;
+  margin-top: 16px;
+  width: 70%;
 }
 
 .icon-kontak1 {
-  z-index: 1;
-  opacity: 0.1;
+  z-index: 0;
+  margin-left: 235px;
 }
 
 .icon-kontak2 {
-  width: 620px;
-  height: 590px;
-  margin-left: -90px;
-  margin-bottom: 0px;
+  z-index: 0;
+  margin-left: 0px;
+  margin-top: -100px;
+}
+
+.icon-kontak3 {
+  width: 550px;
+  height: 600px;
+  margin-left: -20px;
+  margin-top: -240px;
 }
 
 .kontak .row {
@@ -218,11 +237,11 @@ body {
   background: #ae39ff;
   border: none;
   border-radius: 24px;
-  font-family: "Poppins";
   font-style: normal;
   font-size: 15px;
   color: #ffff;
   margin-top: 40px;
+  margin-bottom: 40px;
 }
 
 /* Slycing Footer */
