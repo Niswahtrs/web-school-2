@@ -138,6 +138,21 @@ footer p{
     text-align: left;
 }
 
+footer p a{
+    margin-top: 20px;
+    color: #404040;
+    text-decoration: none;
+    font-size: 18px;
+    text-align: left;
+}
+
+footer p a:hover{
+    margin-top: 20px;
+    color: #383838;
+    font-size: 18px;
+    text-align: left;
+}
+
 footer .social-media p{
     margin-top: 14px;
     color: #404040;
