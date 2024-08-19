@@ -27,6 +27,7 @@ body {
   background: linear-gradient(to right, #734192, #9B309D);
   box-shadow: 0 2px 8px rgba(0, 0, 0, .2);
 }
+
 .navbar .nav-item .nav-link {
   color: white;
 }
