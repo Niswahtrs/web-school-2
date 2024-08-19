@@ -111,11 +111,10 @@ body {
 }
 
 .icon-galeri2 {
-  width: 691.628px;
-  height: 766.231px;
-  flex-shrink: 0;
-  margin-left: -90px;
-  margin-bottom: -40px;
+  width: 600px;
+  height: 700px;
+  margin-left: 40px;
+  margin-bottom: 0px;
 }
 
 .galeri {
@@ -130,7 +129,7 @@ body {
   margin-bottom: -40px;
 }
 
-.col-12 span {
+.row span {
   font-size: 24px;
   font-weight: 400;
   color: #4facf6;
@@ -170,9 +169,8 @@ body {
 }
 
 .icon-kontak2 {
-  width: 750px;
-  height: 720px;
-  flex-shrink: 0;
+  width: 680px;
+  height: 650px;
   margin-left: -90px;
   margin-bottom: -20px;
 }
