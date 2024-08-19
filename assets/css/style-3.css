@@ -129,7 +129,21 @@ body {
   margin-bottom: -40px;
 }
 
+.judul {
+  font-size: 56px;
+  font-weight: 700;
+  font-family: "Poppins";
+  color: #19245f;
+  margin-bottom: -40px;
+}
+
 .row span {
+  font-size: 24px;
+  font-weight: 400;
+  color: #4facf6;
+}
+
+.sub-judul {
   font-size: 24px;
   font-weight: 400;
   color: #4facf6;
