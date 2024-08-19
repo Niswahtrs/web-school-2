@@ -117,68 +117,68 @@ body {
 /* footer */
 
 footer {
-    position: relative;
-    width: 100%;
-    height: auto;
-    padding: 50px 100px;
-    background-color: #fafafa;
-    color: #2e334e;
-  }
-  
-  footer .container {
-    width: 100%;
-    display: grid;
-    grid-template-columns: 2fr 1fr 1fr 1fr;
-    grid-gap: 5px;
-  }
-  
-  footer .container .sec p {
-    width: 70%;
-    color: #2e334e;
-    font-size: 20px;
-    margin-top: 24px;
-  }
-  
-  footer .container .sec h5 {
-    position: relative;
-    font-weight: 600;
-    color: #1c2661;
-  }
-  
-  .sec ul {
-    list-style: none;
-    padding: 0;
-  }
-  
-  .sec ul li {
-    margin-bottom: 10px;
-  }
-  
-  .sec ul li a {
-    text-decoration: none;
-    color: #404040;
-    display: flex;
-    align-items: center;
-  }
-  
-  ul li a img {
-    margin-right: 10px;
-    width: 20px;
-    height: 20px;
-  }
-  
-  footer .container .sec p {
-    margin-top: 30px;
-    font-size: 15px;
-  }
-  
-  .copyright {
-    width: 100%;
-    padding: 20px 100px;
-    text-align: center;
-    color: #404040;
-    border-top: 1px solid #aaaaaa;
-  }
+  position: relative;
+  width: 100%;
+  height: auto;
+  padding: 50px 100px;
+  background-color: #fafafa;
+  color: #2e334e;
+}
+
+footer .container {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 2fr 1fr 1fr 1fr;
+  grid-gap: 5px;
+}
+
+footer .container .sec p {
+  width: 70%;
+  color: #2e334e;
+  font-size: 20px;
+  margin-top: 24px;
+}
+
+footer .container .sec h5 {
+  position: relative;
+  font-weight: 600;
+  color: #1c2661;
+}
+
+.sec ul {
+  list-style: none;
+  padding: 0;
+}
+
+.sec ul li {
+  margin-bottom: 10px;
+}
+
+.sec ul li a {
+  text-decoration: none;
+  color: #404040;
+  display: flex;
+  align-items: center;
+}
+
+ul li a img {
+  margin-right: 10px;
+  width: 20px;
+  height: 20px;
+}
+
+footer .container .sec p {
+  margin-top: 30px;
+  font-size: 15px;
+}
+
+.copyright {
+  width: 100%;
+  padding: 20px 100px;
+  text-align: center;
+  color: #404040;
+  border-top: 1px solid #aaaaaa;
+}
 
 /* Background gambar */
 .background-image .bgimage {
@@ -186,7 +186,7 @@ footer {
     height: auto;
     overflow: hidden;
     position: absolute;
-    top: -30%;
+    top: -10%;
     left: 0%;
     z-index: -1;
 }
@@ -224,9 +224,9 @@ footer {
 }
 
 img.kartun1{
-    max-width: 500px;
-    margin-left: 0px;
-    transform: translateY(-3%);
+    max-width: 550px;
+    margin-left: 20px;
+    transform: translateY(10%);
 }
 
 .content1 h2{
@@ -245,7 +245,7 @@ img.kartun1{
 /* content2 */
 
 .content2 .row{
-    margin-top: 200px;
+    margin-top: 300px;
     margin-left: 100px;
     margin-right: 100px;
 }
