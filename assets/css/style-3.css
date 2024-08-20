@@ -116,7 +116,7 @@ body {
   width: 550px;
   height: 600px;
   margin-left: -20px;
-  transform: translateY(10%);
+  transform: translateY(2%);
 }
 
 .galeri {
@@ -162,7 +162,7 @@ body {
 
 /* Style Kontak */
 .hero-tagline-kontak {
-  transform: translateY(-50%);
+  transform: translateY(-30%);
 }
 
 .hero-tagline-kontak h1 {
@@ -189,7 +189,7 @@ body {
 .icon-kontak3 {
   width: 550px;
   height: 600px;
-  margin-left: 50px;
+  margin-left: 20px;
   transform: translateY(-60%);
 }
 
