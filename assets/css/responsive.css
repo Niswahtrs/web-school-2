@@ -1,10 +1,8 @@
 @media screen and (max-width: 992px) {
-  .hero {
-    height: 720px;
-  }
-
+  /* Responsive Galeri */
   .hero-tagline h1 {
     font-size: 48px;
+    margin-top: 40%;
   }
 
   .hero-tagline p {
@@ -12,16 +10,11 @@
     width: 80%;
   }
 
-  .icon-galeri1 {
-    width: 80%;
-    top: 10%;
-  }
-
   .icon-galeri2 {
-    width: 550px;
-    height: auto;
-    margin-left: -50px;
-    margin-bottom: -30px;
+    width: 450px;
+    height: 500px;
+    margin-left: 0;
+    margin-top: 100px;
   }
 
   .galeri {
@@ -51,26 +44,34 @@
     margin-top: 60px;
   }
 
-  .hero {
-    height: 700px;
+  .galeri .col-4 {
+    width: 50%;
+    padding-right: 15px;
+    padding-left: 15px;
   }
 
-  .hero-kontak h1 {
+  /* Responsive kontak */
+  .hero-tagline-kontak {
+    transform: translateY(-20%);
+  }
+
+  .hero-tagline-kontak h1 {
     font-size: 48px;
   }
 
-  .hero-kontak p {
+  .hero-tagline-kontak p {
     font-size: 18px;
-    width: 85%;
+    width: 80%;
   }
 
-  .icon-kontak2 {
-    width: 600px;
-    height: 570px;
-    margin-left: -70px;
-    margin-bottom: -15px;
+  .icon-kontak3 {
+    width: 450px;
+    height: auto;
+    margin-left: 0px;
+    transform: translateY(-50%);
   }
 
+  /* Responsive Footer */
   footer {
     padding: 40px 50px;
   }
@@ -95,34 +96,34 @@
 }
 
 @media screen and (max-width: 768px) {
-  .hero {
-    height: 600px;
+  /* Responsive galeri */
+  .hero-tagline h1 {
+    font-size: 32px;
+    margin-top: 20%;
   }
 
-  .hero-tagline h1 {
-    font-size: 36px;
-  }
   .hero-tagline p {
     font-size: 16px;
     width: 90%;
   }
 
   .icon-galeri2 {
-    width: 400px;
+    width: 350px;
     height: auto;
-    margin-left: -20px;
-    margin-bottom: -20px;
+    margin-top: -50px;
+    margin-left: 0;
   }
+
   .galeri {
     padding: 60px 0;
   }
 
-  .col-12 h2 {
+  .judul {
     font-size: 40px;
     margin-bottom: -20px;
   }
 
-  .col-12 span {
+  .sub-judul {
     font-size: 18px;
   }
 
@@ -138,33 +139,40 @@
 
   .card-galeri img {
     height: 240px;
-    margin-top: 40px;
-  }
-  .hero {
-    height: 600px;
+    margin-top: 30px;
   }
 
-  .kontak {
-    margin-top: 90px;
+  .galeri .col-4 {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
   }
 
-  .hero-kontak h1 {
-    font-size: 36px;
-    margin-top: -100px;
+  /* Responsive Kontak */
+  .hero-tagline-kontak {
+    text-align: center;
+    transform: translateY(-50%);
   }
 
-  .hero-kontak p {
+  .hero-tagline-kontak h1 {
+    font-size: 28px;
+  }
+
+  .hero-tagline-kontak p {
     font-size: 16px;
-    width: 80%;
+    width: 90%;
+    margin: 0 auto 40px auto;
   }
 
-  .icon-kontak2 {
-    width: 400px;
-    height: 370px;
-    margin-left: -50px;
-    margin-bottom: 90px;
+  .icon-kontak3 {
+    width: 350px;
+    height: auto;
+    transform: translateY(-30%);
+    margin-left: auto;
+    margin-right: auto;
   }
 
+  /* Responsive footer */
   footer {
     padding: 30px 30px;
   }
@@ -189,34 +197,47 @@
 }
 
 @media screen and (max-width: 576px) {
+  /* Responsive galeri */
   .hero {
-    height: 480px;
+    padding: 20px 0;
   }
 
-  .hero-tagline h1 {
-    font-size: 28px;
+  .hero-tagline-kontak {
+    transform: translateY(0);
+    text-align: center;
   }
-  .hero-tagline p {
-    font-size: 12px;
+
+  .hero-tagline-kontak h1 {
+    font-size: 24px;
+  }
+
+  .hero-tagline-kontak p {
+    font-size: 14px;
     width: 100%;
+    margin-bottom: 20px;
   }
 
-  .icon-galeri2 {
-    width: 100px;
-    height: auto;
-    margin-left: -100px;
-    margin-bottom: 300px;
+  .icon-kontak2 {
+    display: none; /* Menghilangkan layer background untuk layar kecil*/
   }
+
+  .icon-kontak3 {
+    width: 100%;
+    height: auto;
+    transform: translateY(0);
+    margin-left: 0;
+  }
+
   .galeri {
     padding: 40px 0;
   }
 
-  .col-12 h2 {
+  .judul {
     font-size: 32px;
     margin-bottom: -10px;
   }
 
-  .col-12 span {
+  .sub-judul {
     font-size: 16px;
   }
 
@@ -234,9 +255,20 @@
     margin-top: 20px;
   }
 
+  .galeri .col-4 {
+    width: 100%;
+    padding-right: 20px;
+    padding-left: 20px;
+  }
+
+  /* Responsive Kontak */
   .hero {
-    height: 500px;
-    padding: 20px;
+    padding: 20px 0;
+  }
+
+  .hero-tagline-kontak {
+    transform: translateY(0);
+    text-align: center;
   }
 
   .hero-kontak h1 {
@@ -248,17 +280,7 @@
     width: 100%;
   }
 
-  .icon-kontak2 {
-    width: 300px;
-    height: 270px;
-    margin-left: 0px;
-    margin-bottom: 150px;
-  }
-
-  .icon-kontak1 {
-    display: none; /* Hide background images on very small screens for better readability */
-  }
-
+  /* Responsive footer */
   footer {
     padding: 20px 20px;
   }
