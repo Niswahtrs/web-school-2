@@ -76,18 +76,25 @@ body {
 }
 
 /* Styling Page Galeri */
+.hero {
+  position: relative;
+  width: 100%;
+  height: 100vh; /* Memastikan section hero menggunakan tinggi penuh viewport */
+  overflow: hidden;
+}
+
 .hero-bg {
   z-index: 1;
   position: absolute;
   width: 100%;
-  background-size: cover;
+  height: 100%;
 }
 
 .hero-tagline h1 {
   color: #ffff;
   font-weight: 700;
   font-size: 38px;
-  margin-top: 50%;
+  margin-top: 40%;
 }
 
 .hero-tagline p {
@@ -103,9 +110,6 @@ body {
   z-index: 0;
   position: absolute;
   width: 100%;
-  /* z-index: 1;
-  position: absolute;
-  width: 100%; */
 }
 
 .icon-galeri2 {
@@ -116,7 +120,7 @@ body {
 }
 
 .galeri {
-  padding: 100px 0;
+  margin-top: 50px;
 }
 
 .judul {
@@ -157,15 +161,14 @@ body {
 }
 
 /* Style Kontak */
-.kontak {
-  margin-top: 100px;
+.hero-tagline-kontak {
+  transform: translateY(-40%);
 }
 
 .hero-tagline-kontak h1 {
   color: #ffff;
   font-weight: 700;
   font-size: 38px;
-  margin-top: 10%;
 }
 
 .hero-tagline-kontak p {
@@ -177,26 +180,21 @@ body {
   width: 70%;
 }
 
-.icon-kontak1 {
-  z-index: 0;
-  margin-left: 235px;
-}
-
 .icon-kontak2 {
   z-index: 0;
   margin-left: 0px;
-  margin-top: -100px;
+  width: 100%;
 }
 
 .icon-kontak3 {
   width: 550px;
   height: 600px;
-  margin-left: -20px;
-  margin-top: -240px;
+  margin-left: 50px;
+  transform: translateY(-70%);
 }
 
-.kontak .row {
-  margin-top: 64px;
+.kontak {
+  margin-top: 50px;
 }
 
 .kontak-item {
@@ -241,7 +239,7 @@ body {
   font-size: 15px;
   color: #ffff;
   margin-top: 40px;
-  margin-bottom: 40px;
+  margin-bottom: 80px;
 }
 
 /* Slycing Footer */
@@ -308,4 +306,5 @@ footer .container .sec p {
   text-align: center;
   color: #404040;
   border-top: 1px solid #aaaaaa;
+  background-color: #fafafa;
 }
