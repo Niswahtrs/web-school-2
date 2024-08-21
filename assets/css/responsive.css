@@ -11,14 +11,8 @@
   }
 
   .icon-galeri2 {
-    width: 450px;
-    height: 500px;
-    margin-left: 0;
-    margin-top: 100px;
-  }
-
-  .galeri {
-    padding: 80px 0;
+    width: 100%;
+    height: auto;
   }
 
   .col-12 h2 {
@@ -108,14 +102,10 @@
   }
 
   .icon-galeri2 {
-    width: 350px;
+    width: 100%;
     height: auto;
     margin-top: -50px;
     margin-left: 0;
-  }
-
-  .galeri {
-    padding: 60px 0;
   }
 
   .judul {
@@ -198,38 +188,23 @@
 
 @media screen and (max-width: 576px) {
   /* Responsive galeri */
-  .hero {
-    padding: 20px 0;
-  }
-
-  .hero-tagline-kontak {
-    transform: translateY(0);
+  .hero-tagline {
     text-align: center;
   }
 
-  .hero-tagline-kontak h1 {
-    font-size: 24px;
+  .hero-tagline h1 {
+    font-size: 28px;
   }
 
-  .hero-tagline-kontak p {
+  .hero-tagline p {
     font-size: 14px;
     width: 100%;
-    margin-bottom: 20px;
   }
 
-  .icon-kontak2 {
-    display: none; /* Menghilangkan layer background untuk layar kecil*/
-  }
-
-  .icon-kontak3 {
+  .icon-galeri2 {
     width: 100%;
     height: auto;
-    transform: translateY(0);
-    margin-left: 0;
-  }
-
-  .galeri {
-    padding: 40px 0;
+    text-align: center;
   }
 
   .judul {
@@ -257,27 +232,42 @@
 
   .galeri .col-4 {
     width: 100%;
-    padding-right: 20px;
-    padding-left: 20px;
+    padding-right: 30px;
+    padding-left: 30px;
   }
 
   /* Responsive Kontak */
-  .hero {
-    padding: 20px 0;
-  }
-
   .hero-tagline-kontak {
-    transform: translateY(0);
     text-align: center;
+    margin-top: 20px;
+    transform: translateY(70%);
   }
 
-  .hero-kontak h1 {
+  .hero-tagline-kontak h1 {
     font-size: 28px;
   }
 
-  .hero-kontak p {
+  .hero-tagline-kontak p {
     font-size: 14px;
     width: 100%;
+  }
+
+  .icon-kontak3 {
+    width: 100%;
+    height: auto;
+    text-align: center;
+    margin-top: 40px;
+  }
+
+  .icon-kontak2 {
+    display: none; /* Menghilangkan layer background untuk layar kecil*/
+  }
+
+  .icon-kontak3 {
+    width: 100%;
+    height: auto;
+    transform: translateY(0);
+    margin-left: 0;
   }
 
   /* Responsive footer */
