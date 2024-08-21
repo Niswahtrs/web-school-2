@@ -4,13 +4,13 @@ body {
   width: 100%;
 }
 
+* {
+  z-index: 2;
+}
+
 /* Styling navbar */
 .navbar {
   z-index: 3;
-}
-
-* {
-  z-index: 2;
 }
 
 .nav-link {
@@ -79,7 +79,7 @@ body {
 .hero {
   position: relative;
   width: 100%;
-  height: 100vh; /* Memastikan section hero menggunakan tinggi penuh viewport */
+  height: 100vh; /* section hero menggunakan tinggi penuh viewport */
   overflow: hidden;
 }
 
@@ -162,7 +162,7 @@ body {
 
 /* Style Kontak */
 .hero-tagline-kontak {
-  transform: translateY(-20%);
+  transform: translateY(-40%);
 }
 
 .hero-tagline-kontak h1 {
@@ -243,7 +243,6 @@ body {
 }
 
 /* Slycing Footer */
-
 footer {
   position: relative;
   width: 100%;
