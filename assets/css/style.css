@@ -11,108 +11,70 @@ body {
 
 /* NAVBAR */
 .navbar {
-    background-color: transparent; /* Transparan */
-    padding: 10px 20px;
-    box-shadow: none; /* Menghilangkan bayangan */
-}
-
-.navbar-brand .logo {
-    margin-right: 15px;
-}
-
-.navbar-nav {
-    display: flex;
-    flex-direction: row; /* Horizontal layout */
-    margin-left: auto; /* Push items to the right */
-}
-
-.nav-item {
-    margin: 0 15px;
-    color: #ffffff;
-}
-
-.nav-link {
-    color: #ffffff;
-    font-weight: 400;
-    font-size: 20px;
-    font-family: Poppins, sans-serif;
-    text-decoration: none;
+    z-index: 3;
+  }
+  
+  .nav-link {
+    font-size: 16px;
+    font-weight: 300;
+    color: #ffff;
     position: relative;
-}
-
-.nav-link:hover {
-    color: #ffffff;
+  }
+  
+  .nav-link.active {
+    color: #ffff;
     font-weight: bold;
-}
-
-.nav-link.active {
-    color: #ffffff;
+  }
+  
+  .nav-link:hover,
+  .nav-link.active {
+    color: #ffff;
     font-weight: bold;
-}
-
-.nav-link::after {
+  }
+  
+  .nav-link:hover::before,
+  .nav-link.nav-link.active::before {
+    width: 50%;
+    visibility: visible;
+  }
+  
+  .nav-color {
+    transition: all ease-in-out 0.3s;
+    background: linear-gradient(to right, #734192, #9b309d);
+  }
+  
+  .bg-transparent {
+    transition: all ease-in-out 0.3s;
+  }
+  
+  .button-primary {
+    padding: 5px 20px 5px 20px;
+    font-size: 16;
+    font-weight: 600;
+    background-color: transparent;
+    border: none;
+    color: #ffff;
+    cursor: pointer;
+    border: 1px solid #ffff;
+    border-radius: 16px;
+    position: relative;
+  }
+  
+  .button-primary::before {
     content: "";
     position: absolute;
-    bottom: 0;
-    left: 35%;
-    width: 0;
-    height: 3px;
-    background-color: #ffffff;
-    visibility: hidden;
-    transition: width 0.2s ease;
-    border-radius: 2px;
-}
-
-.nav-link:hover::after,
-.nav-link.active::after {
-    width: 30%;
-    visibility: hidden;
-}
-
-.PPOB-button {
-    background-color: transparent; /* Transparan untuk background */
-    border: 2px solid #ffffff; /* Menampilkan border putih */
-    color: #ffffff;
-    font-family: Poppins, sans-serif;
-    font-size: 16px;
-    padding: 7px 25px;
-    border-radius: 50px;
-    text-decoration: none;
-    transition: background-color 0.5s, border-color 0.5s;
-}
-
-.PPOB-button:hover {
-    border-color: #ffffff;
-    background-color: rgba(255, 255, 255, 0.1);
-}
-
-.navbar-toggler {
-    display: none; /* Default: hidden */
-    font-size: 1.5rem;
-    background: none;
-    border: none;
-    cursor: pointer;
-}
-
-/* Media query for mobile screens */
-@media (max-width: 991px) {
-    .navbar-nav {
-        flex-direction: column; /* Vertikal layout pada mobile */
-        width: 100%;
-    }
-
-    .nav-item {
-        margin: 10px 0;
-    }
-
-    .navbar-toggler {
-        display: block; /* Show toggle button on mobile */
-    }
-
-    .navbar-collapse {
-        margin-top: 10px;
-    }
-}
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    border-radius: 16px;
+    filter: blur(1px);
+  }
+  
+  .button-primary:hover::before {
+    background-color: rgba(255, 255, 255, 0.2);
+  }
 
 /* footer */
 
@@ -232,12 +194,12 @@ img.kartun1{
 .content1 h2{
     margin-top: 40px;
     color: #ffffff;
-    font-size: 48px;
+    font-size: 40px;
     font-weight: 500;
 }
 
 .content1 p{
-    font-size: 20px;
+    font-size: 18px;
     color:#ffffff;
     margin-top:30px;
 }

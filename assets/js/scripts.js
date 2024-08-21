@@ -1,10 +1,9 @@
-// scripts.js
-
-document.addEventListener('DOMContentLoaded', function() {
-    const toggler = document.getElementById('navbar-toggler');
-    const menu = document.getElementById('navbar-menu');
-    
-    toggler.addEventListener('click', function() {
-        menu.classList.toggle('show');
-    });
+const navbar = document.getElementsByTagName("nav")[0];
+window.addEventListener("scroll", function () {
+  console.log(window.scrollY);
+  if (window.scrollY > 1) {
+    navbar.classList.replace("bg-transparent", "nav-color");
+  } else if (this.window.scrollY <= 0) {
+    navbar.classList.replace("nav-color", "bg-transparent");
+  }
 });
