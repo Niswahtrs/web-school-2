@@ -15,35 +15,6 @@
     height: auto;
   }
 
-  .col-12 h2 {
-    font-size: 48px;
-    margin-bottom: -30px;
-  }
-
-  .col-12 span {
-    font-size: 20px;
-  }
-
-  .card-galeri h3 {
-    font-size: 22px;
-    margin-top: 20px;
-  }
-
-  .card-galeri p {
-    font-size: 14px;
-  }
-
-  .card-galeri img {
-    height: 280px;
-    margin-top: 60px;
-  }
-
-  .galeri .col-4 {
-    width: 50%;
-    padding-right: 15px;
-    padding-left: 15px;
-  }
-
   /* Responsive kontak */
   .hero-tagline-kontak {
     transform: translateY(-20%);
@@ -115,27 +86,6 @@
 
   .sub-judul {
     font-size: 18px;
-  }
-
-  .card-galeri h3 {
-    font-size: 20px;
-    margin-top: 16px;
-  }
-
-  .card-galeri p {
-    font-size: 14px;
-    width: 100%;
-  }
-
-  .card-galeri img {
-    height: 240px;
-    margin-top: 30px;
-  }
-
-  .galeri .col-4 {
-    width: 100%;
-    padding-right: 15px;
-    padding-left: 15px;
   }
 
   /* Responsive Kontak */
@@ -214,26 +164,6 @@
 
   .sub-judul {
     font-size: 16px;
-  }
-
-  .card-galeri h3 {
-    font-size: 18px;
-    margin-top: 12px;
-  }
-
-  .card-galeri p {
-    font-size: 12px;
-  }
-
-  .card-galeri img {
-    height: 200px;
-    margin-top: 20px;
-  }
-
-  .galeri .col-4 {
-    width: 100%;
-    padding-right: 30px;
-    padding-left: 30px;
   }
 
   /* Responsive Kontak */
