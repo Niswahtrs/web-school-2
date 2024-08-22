@@ -1,14 +1,5 @@
 @import url("https://fonts.googleapis.com/css?family=Poppins");
 
-* {
-    margin: 0;
-    padding: 0;
-}
-
-body {
-    font-family: Poppins;
-}
-
 /* NAVBAR */
 .navbar {
     z-index: 3;
@@ -80,6 +71,7 @@ body {
 
 footer {
   position: relative;
+  margin-top: 100px;
   width: 100%;
   height: auto;
   padding: 50px 100px;
@@ -172,7 +164,6 @@ footer .container .sec p {
 
 .content1 .row{
     height: auto;
-    margin-top: 50px;
     padding-left: 40px;
     display: flex;
 }
@@ -183,13 +174,13 @@ footer .container .sec p {
 }
 
 .content1 .col-5{
-    margin-top: 100px;
+    margin-top: 200px;
 }
 
 img.kartun1{
     max-width: 550px;
     margin-left: 20px;
-    transform: translateY(10%);
+    transform: translateY(25%);
 }
 
 .content1 h2{
@@ -219,30 +210,33 @@ img.kartun1{
 }
 
 .tanggal {
-    background-color: #AE39FF;
-    color: #ffffff;
-    font-family: Poppins, sans-serif;
-    font-size: 16px;
-    padding: 7px 25px;
-    border-radius: 50px;
-    text-decoration: none;
+  background-color: #AE39FF; /* Warna latar belakang */
+  color: #ffffff; /* Warna teks */
+  font-family: Poppins, sans-serif; /* Font */
+  font-size: 14px; /* Ukuran font */
+  padding: 5px 20px; /* Spasi di dalam elemen */
+  border-radius: 50px; /* Sudut melengkung */
+  text-decoration: none; /* Hapus garis bawah */
+  display: inline-block; /* Agar padding dan border radius bekerja dengan baik */
+  border: 1px solid #AE39FF; /* Border yang sama dengan warna latar belakang */
 }
 
 .content2 h3{
-    margin-top: 15px;
+    margin-top: 5px;
     color: #1C2661;
     font-weight: bold;
 }
 
-.content2 p{
-    margin-top: 10px;
-    margin-bottom: 0px;
+.content2 .text{
+    margin-top: 0px;
+    margin-bottom: 5px;
     text-align: justify;
     font-size: 18px;
 }
 
 .content2 .penulis{
     font-size: 15px;
+    margin-bottom: 0px;
 }
 
 .content2 .readmore{
@@ -260,18 +254,21 @@ img.kartun1{
 
 .content14 .row{
     margin-top: 100px;
-    padding-top: 15px;
+    padding-top: 0px;
     padding-right: 0px;
+    display: flex;
+    flex-wrap: wrap;
+    line-gap-override: 10px;
 }
 
-.content14 .col-md-4{
+/* .content14 .col-md-4{
     margin-bottom: 15px;
-}
+} */
 
 .content14 .gambar3{
-    padding-left: 110px;
-    padding-right: 110px;
-    padding-bottom: 80px;
+    padding-left: 80px;
+    padding-right: 80px;
+    
 }
 
 .content14 .card{
@@ -280,7 +277,6 @@ img.kartun1{
     border-radius: 7%;
     border: none;
     background: #ffffff;
-    margin-bottom: 15px;
 }
 
 .content14 .card-body{
@@ -308,7 +304,7 @@ img.kartun1{
     font-weight: 950;
 }
 
-.content14 .card-body p{
+.content14 .card-body p .text{
     font-family: Poppins;
     margin-top: 5px;
     font-size: 16px;
@@ -335,12 +331,11 @@ img.kartun1{
     font-size: 14px;
     padding: 5px 15px;
     border-radius: 50px;
-    text-decoration: none;
     text-align: center; /* Memusatkan teks tanggal */
     position: absolute;
     bottom: 0; /* Menempel pada bagian bawah card */
     left: 50%;
-    transform: translateX(-50%) translateY(-450%);
+    transform: translateX(-50%) translateY(-400%);
     width: auto;
 }
 
@@ -348,11 +343,12 @@ img.kartun1{
 /* CSS untuk mengatur ukuran gambar di content4 */
 .content4 .row {
     display: grid;
-    margin-top: 50px;
+    margin-top: 0px;
     place-items: center; /* Pusatkan gambar secara horizontal dan vertikal */ /* Pusatkan gambar di dalam container */
 }
 
 .content4 img {
+    margin-top: 150px;
     width: 85%; /* Lebar gambar 75% dari lebar container */
     height: auto; /* Menjaga rasio aspek gambar */
     max-width: 100%; /* Memastikan gambar tidak melebihi lebar container */
@@ -391,5 +387,3 @@ img.kartun1{
     font-size: 20px;
     text-align: justify;
 }
-
-
