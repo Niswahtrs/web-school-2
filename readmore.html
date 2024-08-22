@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Schools</title>
     <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/responsivebell.css">
     <link rel="icon" href="assets/img/logo.png" type="image/x-icon">
     <link href="https://fonts.googleapis.com/css?family=Poppins" rel='stylesheet'>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
@@ -12,28 +13,42 @@
 </head>
 <body>
     <header>
-         <!-- NAVBAR -->
-        <nav class="navbar navbar-expand-lg">
+        <!-- Navbar -->
+        <nav class="navbar navbar-expand-lg navbar-dark bg-transparent position-fixed w-100">
             <div class="container">
-                <a href="#" class="navbar-brand">
-                    <img src="assets/image/artikel/logo.png" class="logo" alt="Logo">
+                <a class="navbar-brand" href="index.html">
+                    <img src="assets/logo/inagata.svg" alt="Logo" width="80" height="40"
+                        class="d-inline-block align-text-top">
                 </a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                    &#9776;
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
                 </button>
                 <div class="collapse navbar-collapse" id="navbarNav">
                     <ul class="navbar-nav mx-auto">
-                        <li class="nav-item"><a class="nav-link" style="color: white;" href="index.html">Beranda</a></li>
-                        <li class="nav-item"><a class="nav-link" style="color: white;" href="tentang.html">Tentang</a></li>
-                        <li class="nav-item"><a class="nav-link" style="color: white;" href="galeri.html">Galeri</a></li>
-                        <li class="nav-item"><a class="nav-link active" style="color: white;" href="artikel.html">Artikel</a></li>
-                        <li class="nav-item"><a class="nav-link" style="color: white;" href="kontak.html">Kontak</a></li>
+                        <li class="nav-item mx-2">
+                            <a class="nav-link" href="index.html">Beranda</a>
+                        </li>
+                        <li class="nav-item mx-2">
+                            <a class="nav-link" href="tentang.html">Tentang</a>
+                        </li>
+                        <li class="nav-item mx-2">
+                            <a class="nav-link" href="galeri.html">Galeri</a>
+                        </li>
+                        <li class="nav-item mx-2">
+                            <a class="nav-link active" aria-current="page" href="artikel.html">Artikel</a>
+                        </li>
+                        <li class="nav-item mx-2">
+                            <a class="nav-link" href="kontak.html">Kontak</a>
+                        </li>
                     </ul>
-                    <a href="#" class="PPOB-button">PPDB</a>
+                    <div>
+                        <button class="button-primary">PPDB</button>
+                    </div>
                 </div>
             </div>
         </nav>
-        <!-- NAVBAR END -->
+        <!-- Navbar End-->
     </header>
 
 <main>
@@ -66,7 +81,7 @@
         <div class="container-fluid">
             <div class="row">
                 <div class="col-4">
-                    <a href="#" class="tanggal">12 Desember 2021</a>
+                    <p class="tanggal">12 Desember 2021</p>
                 </div>
                 <h2>Gotong Royong di Sekolah, Bantu Anak Segera Kembali ke Sekolah</h2>
                 <p class="penulis">Penulis: Shinta A.P.</p>
@@ -154,6 +169,6 @@
 </div>
 <!-- Footer End -->
 
-  <script src="js/scripts.js"></script>
+  <script src="assets/js/scripts.js"></script>
 </body>
 </html>
