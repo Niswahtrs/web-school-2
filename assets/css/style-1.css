@@ -22,6 +22,7 @@ body {
 .card {
   border: none;
   background-color: transparent;
+  padding-bottom: 3rem;
 }
 
 /* navbar */
@@ -62,39 +63,13 @@ body {
   transition: all ease-in-out 0.3s;
 }
 
-.navbar {
-  z-index: 4;
-}
-/* 
-.navbar.nav-color {
-  background: linear-gradient(to right, #734192, #9B309D);
-  box-shadow: 0 2px 8px rgba(0, 0, 0, .2);
-}
-
-.navbar.bg-transparent {
-  transition: all ease-out 0.01s;
-}
-
-.navbar .nav-item .nav-link {
-  color: white;
-  font-weight: 300;
-} */
-
 .navbar .button {
-  font-weight: bold;
-}
-
-.navbar ul li a:hover {
-  font-weight: bold;
-}
-
-.navbar .nav-link.active {
   font-weight: bold;
 }
 
 /* hero */
 #hero .container {
-  height: 654.54px;
+  height: 900px;
   display: flex;
 }
 
@@ -104,12 +79,12 @@ body {
   margin: 0;
 }
 
-#hero .title-hero {
+.title-hero {
   color: white;
-  margin-top: 10%;
+  transform: translateY(-10%);
 }
 
-#hero .title-hero h1 {
+.title-hero h1 {
   font-weight: bold;
   line-height: 60px;
   font-size: 40px;
@@ -117,23 +92,24 @@ body {
   padding-right: 120px;
 }
 
-#hero .title-hero p {
+.title-hero p {
   font-weight: 400;
   text-align: justify;
   padding-right: 120px;
   font-size: 18px;
 }
 
-#hero .title-hero button {
+.title-hero button {
   background-color: #AE39FF;
   border: none;
   font-size: 14px;
+  margin: 24px 0px;
 }
 
 #hero .row .img img {
-  width: 800px;
+  width: 65%;
   z-index: 3;
-  transform: translateX(-45%) translateY(-45%);
+  transform: translateX(-40%) translateY(-55%);
   position: absolute;
 
 }
@@ -141,6 +117,7 @@ body {
 /* hero tentang */
 
 #hero-tentang .container {
+  height: 850px;
   display: flex;
 }
 
@@ -151,25 +128,24 @@ body {
 
 #hero-tentang .title-hero {
   color: white;
-  padding-left: 1rem;
 }
 
 #hero-tentang .title-hero h1 {
-  font-size: 40px;
+  font-size: 48px;
   font-weight: 700;
   line-height: 76.38px;
   text-align: left;
+  padding-right: 15px;
 }
 
 #hero-tentang .title-hero p {
-  font-weight: 400;
   font-size: 18px;
 }
 
 #hero-tentang .row .img img {
   z-index: 3;
   width: 100%;
-  transform: translateY(25%);
+  transform: translateX(2%) translateY(8%);
 }
 
 /* wave */
@@ -193,6 +169,10 @@ body {
   transform: translateY(-40%);
 }
 
+.wave5 {
+  transform: translateY(20%);
+}
+
 .wave7 {
   z-index: 0;
   position: absolute;
@@ -201,8 +181,8 @@ body {
 
 /* keunggulan */
 #keunggulan {
-  margin-top: 12rem;
-  padding: 50px 75px;
+  margin-top: 5rem;
+  padding: 50px;
   position: relative;
 }
 
@@ -234,13 +214,13 @@ body {
 #hero-2 {
   height: 100%;
   margin-bottom: 100px;
-  padding: 100px 0;
+  padding: 100px 50px;
   align-items: center;
   position: relative;
 }
 
 #hero-2 .hero-right {
-  padding: 100px;
+  padding: 50px;
 }
 
 .hero-right h1 {
@@ -251,7 +231,6 @@ body {
 
 .hero-right p {
   color: #1C2661;
-  font-weight: 400;
   text-align: justify;
 }
 
@@ -261,7 +240,6 @@ body {
   margin: 0;
   padding: 8px 1rem;
   font-size: 14px;
-  font-weight: 400;
 }
 
 .hero-left {
@@ -270,15 +248,7 @@ body {
 }
 
 .hero-left img {
-  width: 95%;
-}
-
-.hero-left .img1-2 {
   width: 100%;
-  z-index: 1;
-  bottom: 0;
-  left: 5%;
-  justify-content: center;
 }
 
 /* doc-home */
@@ -288,7 +258,7 @@ body {
   background-color: #E9EFFF;
 }
 
-#doc-home h5 {
+.doc-sekolah h5 {
   color: #AE39FF;
   padding-top: 3rem;
 }
@@ -306,9 +276,8 @@ body {
 .title-doc strong {
   background-color: #F2B828;
   align-items: center;
-  width:fit-content;
-padding: 12px;
-
+  width: fit-content;
+  padding: 12px;
 }
 
 .doc {
@@ -329,7 +298,6 @@ padding: 12px;
 
 #doc-home .card p {
   color: #2E334E;
-  font-weight: 400;
 }
 
 .doc .card-body {
@@ -347,7 +315,7 @@ padding: 12px;
 /* article-home */
 #article-home {
   margin: 100px 0px;
-  padding: 50px 100px;
+  padding: 50px;
   position: relative;
 }
 
@@ -359,13 +327,10 @@ padding: 12px;
 #article-home h1 {
   padding-bottom: 30px;
   font-weight: bold;
-  font-size: 56px;
 }
 
-#article-home h5 {
+#article-home .header-article h5 {
   color: #4FACF6;
-  font-size: 24px;
-  font-weight: 400;
   margin-bottom: 24px;
 }
 
@@ -376,26 +341,21 @@ padding: 12px;
 
 .card-article .card {
   width: 100%;
-  background: transparent;
-  border: none;
-  height: 445px;
 }
 
 #article-home .card h5 {
   color: #19245F;
+  margin-bottom: 14px;
   font-weight: 600;
   padding-top: 0;
   text-align: justify;
-  font-size: 20px;
-  line-height: 30px;
+  font-size: 18px;
 }
 
 #article-home .card p {
   color: #2E334E;
   text-align: justify;
-  font-size: 16px;
-  font-weight: 400;
-  line-height: 24px;
+  font-size: 15px;
 }
 
 .card-article .card-body {
@@ -406,7 +366,7 @@ padding: 12px;
 .card-article .card-body a.btn {
   background-color: #AE39FF;
   transform: translateY(-50%);
-  font-size: 16px;
+  font-size: 14px;
 }
 
 .card-article img {
@@ -418,7 +378,7 @@ padding: 12px;
 /* Tentang: Profil */
 #profile {
   position: relative;
-  margin-top: 12rem;
+  padding: 100px 50px;
 }
 
 #profile h1 {
@@ -432,14 +392,12 @@ padding: 12px;
 
 #profile h5 {
   color: #4FACF6;
-  font-weight: 400;
   line-height: 36px;
   text-align: justify;
 
 }
 
 #profile p {
-  font-weight: 400;
   color: #3A3B41;
   text-align: justify;
   line-height: 42px;
@@ -448,9 +406,8 @@ padding: 12px;
 
 /* tentang: keunggulan */
 #keunggulan-tentang {
-  padding: 50px 75px;
+  padding: 50px;
   position: relative;
-  margin-top: 8rem;
 }
 
 #keunggulan-tentang .header-keunggulan {
@@ -464,7 +421,7 @@ padding: 12px;
 
 /* tentang: civitas */
 #civitas {
-  margin: 100px 0;
+  padding: 50px;
   position: relative;
   background-color: #E9EFFF;
   justify-content: center;
@@ -502,11 +459,6 @@ padding: 12px;
   display: flex;
 }
 
-.card-guru .card {
-  background: transparent;
-  border: none;
-}
-
 #civitas .card h5 {
   color: #19245F;
   font-weight: 600;
@@ -515,8 +467,6 @@ padding: 12px;
 
 #civitas .card p {
   color: #2E334E;
-  font-weight: 400;
-  font-weight: 400;
   line-height: 24px;
 }
 
@@ -534,7 +484,7 @@ padding: 12px;
 
 /* video profil */
 #video-profil {
-  margin-bottom: 100px;
+  padding: 50px;
 }
 
 .container-video {
@@ -556,11 +506,9 @@ padding: 12px;
 .title-video h5 {
   color: #4FACF6;
   text-align: center;
-  font-weight: 400;
 }
 
 video {
-  padding: 0px 100px;
   width: 100%;
   border-radius: 24px;
 }
@@ -587,7 +535,6 @@ footer .container .sec p {
   color: #2e334e;
   font-size: 20px;
   margin-top: 24px;
-  font-weight: 400;
 }
 
 footer .container .sec h5 {
@@ -630,4 +577,480 @@ footer .container .sec p {
   color: #404040;
   border-top: 1px solid #aaaaaa;
   background-color: #fafafa;
+}
+
+@media screen and (max-width: 1200px) {
+  #hero .container {
+    height: 700px;
+  }
+
+  #hero .title-hero {
+    margin-top: 6%;
+  }
+
+  #hero .title-hero h1 {
+    line-height: 50px;
+    font-size: 32px;
+    padding-right: 100px;
+  }
+
+  #hero .title-hero p {
+    text-align: justify;
+    padding-right: 100px;
+    font-size: 15px;
+  }
+
+  #hero .title-hero button {
+    font-size: 14px;
+    margin: 12px 0px;
+  }
+
+  #hero .row .img img {
+    transform: translateX(-40%) translateY(-54%);
+  }
+
+}
+
+@media screen and (max-width: 992px) {
+
+  /* responsive home */
+  /* hero */
+  #hero .container {
+    height: 600px;
+  }
+
+  #hero .title-hero {
+    margin-top: 6%;
+  }
+
+  #hero .title-hero h1 {
+    line-height: 50px;
+    font-size: 32px;
+    padding-right: 100px;
+  }
+
+  #hero .title-hero p {
+    text-align: justify;
+    padding-right: 100px;
+    font-size: 15px;
+  }
+
+  #hero .title-hero button {
+    font-size: 14px;
+    margin: 12px 0px;
+  }
+
+  #hero .row .img img {
+    transform: translateX(-50%) translateY(-54%);
+  }
+
+  .wave3 {
+    transform: translateY(40%);
+    width: 13%;
+  }
+  
+  .wave4 {
+    transform: translateY(-40%);
+    width: 8%;
+  }
+  
+  .wave5 {
+    transform: translateY(-18%);
+    width: 5%;
+  }
+
+  /* keunggulan */
+  .card-script h5 {
+    padding-right: 2rem;
+  }
+
+  /* sec tentang */
+  #hero-2 {
+    margin-bottom: 100px;
+    padding: 50px;
+  }
+  
+  #hero-2 .hero-right {
+    padding: 20px;
+  }
+  
+  .hero-right button {
+    font-size: 14px;
+  }
+
+  /* dokumentasi */
+  .doc .card-body {
+    padding: 20px 0px 0px 0px;
+  }
+  
+  .doc img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 24px;
+  }
+
+  /* responsive about */
+  /* hero */
+  #hero-tentang .container {
+    height: 585px;
+  }
+  
+  #hero-tentang .title-hero h1 {
+    font-size: 32px;
+    padding-right: 15px;
+  }
+  
+  #hero-tentang .title-hero p {
+    font-size: 15px;
+  }
+  
+  #hero-tentang .row .img img {
+    transform: translateX(-10%) translateY(5%);
+  }
+
+  /* civitas */ 
+  .card-guru img {
+    width: 100%;
+    height: 265px;
+  }
+}
+
+@media screen and (max-width: 768px){
+  /* responsive home */
+  /* hero */
+  #hero .container {
+    height: 505px;
+  }
+
+  #hero .title-hero {
+    margin-top: 8%;
+    align-items: center;
+    justify-content: center;
+  }
+
+  #hero .title-hero h1 {
+    line-height: 30px;
+    font-size: 24px;
+    padding-right: 0px;
+    text-align: center;
+  }
+
+  #hero .title-hero p {
+    text-align: justify;
+    padding-right: 0px;
+    font-size: 12px;
+    text-align: center;
+  }
+
+  #hero .title-hero button {
+    font-size: 12px;
+    margin: 10px 0px;
+    text-align: center;
+    
+    
+  }
+
+  #hero .row .img img {
+    transform: translateX(-45%) translateY(-60%);
+    width: 60%;
+    opacity: 0;
+  }
+
+  .wave3 {
+    transform: translateY(40%);
+    width: 13%;
+  }
+  
+  .wave4 {
+    transform: translateY(-40%);
+    width: 8%;
+  }
+  
+  .wave5 {
+    transform: translateY(-18%);
+    width: 5%;
+  }
+
+  /* keunggulan */
+  #keunggulan {
+    margin-top: 2rem;
+  }
+
+
+  /* sec tentang */
+  #hero-2 {
+    margin-bottom: 100px;
+    padding: 50px;
+  }
+  
+  #hero-2 .hero-right {
+    padding: 18px;
+  }
+
+  .hero-left img {
+    width: 100%;
+    justify-content: center;
+  }
+  
+  .hero-right button {
+    font-size: 12px;
+  }
+
+  /* dokumentasi */
+  #doc-home {
+    padding: 50px;
+  }
+  .doc .card-body {
+    padding: 20px 0px 0px 0px;
+  }
+
+  .title-doc strong{
+    padding: 10px;
+    font-size: 14px;
+  }
+  
+  .doc img {
+    width: 100%;
+    height: 504px;
+    border-radius: 24px;
+  }
+
+  .card-article .card-body a.btn {
+    background-color: #AE39FF;
+    transform: translateY(-50%);
+    font-size: 15px;
+  }
+
+  /* responsive about */
+  /* hero */
+  #hero-tentang .container {
+    height: 454px;
+  }
+
+  #hero-tentang .title-hero {
+    margin-top: 20%;
+    text-align: center;
+  }
+  
+  #hero-tentang .title-hero h1 {
+    font-size: 20px;
+    padding-right: 0px;
+    text-align: center;
+  }
+  
+  #hero-tentang .title-hero p {
+    font-size: 15px;
+    text-align: center;
+    padding-right: 0;
+  }
+  
+  #hero-tentang .row .img img {
+    transform: translateX(-10%) translateY(5%);
+    width: 80%;
+    opacity: 0;
+  }
+
+  /* civitas */
+  #civitas {
+    padding: 100px;
+  } 
+  .card-guru img {
+    width: 100%;
+    height: 710px;
+  }
+}
+
+@media screen and (max-width: 576px){
+  /* responsive home */
+  /* hero */
+  #hero .container {
+    height: 505px;
+    text-align: center;
+  }
+
+  #hero .title-hero {
+    margin-top: 6%;
+    order: 0;
+  }
+
+  #hero .title-hero h1 {
+    line-height: 20px;
+    font-size: 20px;
+    padding-right: 0px;
+    text-align: center;
+  }
+
+  #hero .title-hero p {
+    padding-right: 0px;
+    font-size: 12px;
+    text-align: center;
+  }
+
+  #hero .title-hero button {
+    font-size: 12px;
+    margin: 8px 0px;
+  }
+
+  #hero .row .img img {
+    transform: translateX(-45%) translateY(-60%);
+    width: 50%;
+    justify-content: center;
+    opacity: 0;
+  }
+
+  .wave3 {
+    transform: translateY(40%);
+    width: 13%;
+  }
+  
+  .wave4 {
+    transform: translateY(-40%);
+    width: 8%;
+  }
+  
+  .wave5 {
+    transform: translateY(-18%);
+    width: 5%;
+  }
+
+  /* keunggulan */
+  #keunggulan {
+    margin-top: 2rem;
+  }
+
+
+  /* sec tentang */
+  #hero-2 {
+    margin-bottom: 100px;
+    padding: 50px;
+  }
+  
+  #hero-2 .hero-right {
+    padding: 18px;
+    text-align: center;
+  }
+
+  .hero-right p {
+    text-align: center;
+  }
+
+  .hero-left img {
+    width: 100%;
+    justify-content: center;
+  }
+  
+  .hero-right button {
+    font-size: 12px;
+  }
+
+  /* dokumentasi */
+  #doc-home {
+    padding: 50px;
+  }
+  .doc .card-body {
+    padding: 20px 0px 0px 0px;
+  }
+
+  .title-doc {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+  }
+
+  .title-doc strong{
+    background-color: #F2B828;
+    align-items: center;
+    text-align: center;
+    font-size: 15px;
+    line-height: 30px;
+  }
+
+  .title-doc h1 {
+    font-size: 30px;
+    text-align: center;
+  }
+
+  .doc-sekolah h5 {
+    text-align: center;
+  }
+  .doc img {
+    width: 100%;
+    height: 412px;
+    border-radius: 24px;
+  }
+
+  .card-article .card-body a.btn {
+    background-color: #AE39FF;
+    transform: translateY(-50%);
+    font-size: 15px;
+  }
+
+  /* responsive about */
+  /* hero */
+  #hero-tentang .container {
+    height: 454px;
+  }
+  
+  #hero-tentang .title-hero h1 {
+    font-size: 20px;
+    padding-right: 0px;
+    text-align: center;
+  }
+  
+  #hero-tentang .title-hero p {
+    font-size: 12px;
+    text-align: center;
+    padding: 0;
+  }
+  
+  #hero-tentang .row .img img {
+    transform: translateX(-10%) translateY(5%);
+    width: 30%;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+  }
+
+  /* civitas */
+  #civitas {
+    padding: 100px;
+  } 
+  .card-guru img {
+    width: 100%;
+    height: 391px;
+  }
+
+  #civitas h5 {
+    padding-top: 3rem;
+    line-height: 36px;
+    text-align: center;
+  }
+  
+  .title-civitas {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+  }
+  
+  .title-civitas h1 {
+    margin: 0;
+    font-weight: 700;
+    color: #19245F;
+    letter-spacing: 0.03em;
+    text-align: left;
+  }
+  
+  .title-civitas strong {
+    background-color: #F2B828;
+    align-items: center;
+    text-align: center;
+    font-size: 15px;
+    line-height: 30px;
+  }
+
+  .card {
+    padding-bottom: 2rem;
+  }
 }
