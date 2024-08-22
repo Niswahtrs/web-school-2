@@ -209,7 +209,7 @@ img.kartun1{
     max-height: 100%;
 }
 
-.tanggal {
+p .tanggal {
   background-color: #AE39FF; /* Warna latar belakang */
   color: #ffffff; /* Warna teks */
   font-family: Poppins, sans-serif; /* Font */
