@@ -9,16 +9,13 @@
     integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous" />
   <link rel="stylesheet" href="assets/css/style-1.css">
   <link rel="stylesheet" href="assets/css/responsive.css">
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
-    crossorigin="anonymous"></script>
 </head>
 
 <body>
   <!-- navbar -->
   <nav class="navbar navbar-expand-lg navbar-dark bg-transparent position-fixed w-100">
     <div class="container">
-      <a class="navbar-brand px-3" href="index.html">
+      <a class="navbar-brand" href="index.html">
         <img src="assets/logo/inagata.svg" alt="Logo" width="80" height="40" class="d-inline-block align-text-top">
       </a>
       <button class="navbar-toggler shadow-none border-0" type="button" data-bs-toggle="collapse"
@@ -56,66 +53,78 @@
     <section id="hero">
       <img src="assets/element/Vector-beranda.svg" alt="" class="wave2">
       <img src="assets/element/Vector-1.svg" alt="" class="wave1">
-      <div class="container-fluid">
         <div class="container">
           <div class="row py-4">
-            <div class="title-hero col-md-7">
+            <div class=" col-md-7 title-hero">
               <h1>Tuntut Ilmu Untuk Masa Depan Yang Lebih Baik</h1>
               <p>jelajahi semua pengetahuan dan ilmu yang berguna bersama kami, untuk kehidupan yang lebih bermanfaat
               </p>
               <button class="my-4 text-decoration-none py-2 px-4 rounded-5"><a href="#" class="text-white">Daftar
                   Sekarang</a></button>
             </div>
-            <div class="img col-md-5">
+            <div class="col-md-5 img">
               <img src="assets/element/beranda-1.svg" alt="">
             </div>
           </div>
         </div>
-      </div>
     </section>
     <!-- end of hero -->
 
     <!-- keunggulan -->
     <section id="keunggulan">
-      <h5>Kenapa memilih kami</h5>
-      <h1>Keunggulan Sekolah Kami</h1>
-      <div class="sec-keunggulan">
-        <!-- card 1 -->
-        <div class="card-detail">
-          <div class="card-icon">
-            <img src="assets/icon/book.svg" alt="">
-          </div>
-          <div class="card-script my-4">
-            <h5>Menggunakan Kurikulum Terbaru</h5>
-            <p>Sekolah kami menerapkan kurikulum terbaru saat proses belajar agar siswa mendapatakan materi terbaru
-              sesuai ketentuan</p>
-          </div>
+      <div class="container">
+        <div class="header-keunggulan">
+          <h5>Kenapa memilih kami</h5>
+          <h1>Keunggulan Sekolah Kami</h1>
         </div>
+        <div class="sec-keunggulan py-3">
+          <div class="row">
+            <div class="col-lg-4">
+              <!-- card 1 -->
+              <div class="card card-detail">
+                <div class="card-icon">
+                  <img src="assets/icon/book.svg" alt="">
+                </div>
+                <div class="card-script my-4">
+                  <h5>Menggunakan Kurikulum Terbaru</h5>
+                  <p>Sekolah kami menerapkan kurikulum terbaru saat proses belajar agar siswa mendapatakan materi
+                    terbaru
+                    sesuai ketentuan</p>
+                </div>
+              </div>
+            </div>
 
-        <!-- card 2 -->
-        <div class="card-detail">
-          <div class="card-icon">
-            <img src="assets/icon/time.svg" alt="">
-          </div>
-          <div class="card-script my-4">
-            <h5>Efektifitas Waktu Saat Belajar Disekolah</h5>
-            <p>Sekolah kami memiliki waktu belajar yang dirancang agar para siswa tidak jenuh dan dapat menerima
-              pelajaran dengan baik </p>
-          </div>
-        </div>
+            <div class="col-lg-4">
+              <!-- card 2 -->
+              <div class="card card-detail">
+                <div class="card-icon">
+                  <img src="assets/icon/time.svg" alt="">
+                </div>
+                <div class="card-script my-4">
+                  <h5>Efektifitas Waktu Saat Belajar Disekolah</h5>
+                  <p>Sekolah kami memiliki waktu belajar yang dirancang agar para siswa tidak jenuh dan dapat menerima
+                    pelajaran dengan baik </p>
+                </div>
+              </div>
+            </div>
 
-        <!-- card 3 -->
-        <div class="card-detail">
-          <div class="card-icon">
-            <img src="assets/icon/pen.svg" alt="">
-          </div>
-          <div class="card-script my-4">
-            <h5>Penyaluran Bakat dan Minat</h5>
-            <p>Sekolah kami memiliki berbagai macam kegitan akademik maupun non akademik untuk menyalurkan bakat dan
-              minat siswa</p>
+            <div class="col-lg-4">
+              <!-- card 3 -->
+              <div class="card card-detail">
+                <div class="card-icon">
+                  <img src="assets/icon/pen.svg" alt="">
+                </div>
+                <div class="card-script my-4">
+                  <h5>Penyaluran Bakat dan Minat</h5>
+                  <p>Sekolah kami memiliki berbagai macam kegitan akademik maupun non akademik untuk menyalurkan bakat
+                    dan
+                    minat siswa</p>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
-      </div>  
+      </div>
       <img class="wave wave3 position-absolute end-0 bottom-0" src="assets/element/Vector-4.svg" alt="" />
     </section>
     <!-- end of keunggulan -->
@@ -140,13 +149,12 @@
           </div>
         </div>
       </div>
-
     </section>
     <!-- end of hero 2 -->
 
     <!-- dokumentasi beranda -->
     <section id="doc-home">
-      <div class="container">
+      <div class="container-fluid">
         <img class="wave wave4 position-absolute start-0 top-0" src="assets/element/Vector-5.svg" alt="" />
         <h5>Galeri</h5>
         <div class="doc-sekolah">
@@ -157,25 +165,33 @@
           </div>
 
           <div class="doc my-5">
-            <div class="card">
-              <img src="assets/image/beranda/belajar-mengajar.png" class="card-img-top" alt="...">
-              <div class="card-body">
-                <h5 class="card-title">Belajar Mengajar</h5>
-                <p class="card-text">Kegiatan belajar mengajar diadakan setiap hari Senin hingga Jum’at</p>
+            <div class="row">
+              <div class="col-lg-4">
+                <div class="card">
+                  <img src="assets/image/beranda/belajar-mengajar.png" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">Belajar Mengajar</h5>
+                    <p class="card-text">Kegiatan belajar mengajar diadakan setiap hari Senin hingga Jum’at</p>
+                  </div>
+                </div>
               </div>
-            </div>
-            <div class="card">
-              <img src="assets/image/beranda/sharing-session.png" class="card-img-top" alt="...">
-              <div class="card-body">
-                <h5 class="card-title">Sharing Session</h5>
-                <p class="card-text">Kegiatan menukar pendapat dan pikiran anatara guru dan siswa</p>
+              <div class="col-lg-4">
+                <div class="card">
+                  <img src="assets/image/beranda/sharing-session.png" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">Sharing Session</h5>
+                    <p class="card-text">Kegiatan menukar pendapat dan pikiran anatara guru dan siswa</p>
+                  </div>
+                </div>
               </div>
-            </div>
-            <div class="card">
-              <img src="assets/image/beranda/presentasi-projek.png" class="card-img-top" alt="...">
-              <div class="card-body">
-                <h5 class="card-title">Presentasi Projek</h5>
-                <p class="card-text">Kegiatan menunjukan hasil pekerjaan dari guru untuk melatih keberanian</p>
+              <div class="col-lg-4">
+                <div class="card">
+                  <img src="assets/image/beranda/presentasi-projek.png" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">Presentasi Projek</h5>
+                    <p class="card-text">Kegiatan menunjukan hasil pekerjaan dari guru untuk melatih keberanian</p>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
@@ -186,46 +202,49 @@
 
     <!-- artikel beranda -->
     <section id="article-home">
-      <div class="container">
+      <div class="container-fluid">
         <h5>Artikel Seputar Pendidikan</h5>
         <h1>Artikel Terbaru</h1>
-  
+
         <div class="card-article my-3">
           <div class="row row-card">
-            <div class="col-4">
+            <div class="col-lg-4">
               <a href="readmore.html">
                 <div class="card">
                   <img src="assets/image/beranda/artikel-beranda.png" class="card-img-top" alt="...">
                   <div class="card-body text-center">
                     <a href="#" class="btn rounded-5 py-2 px-4 text-white">12 Desember 2021</a>
                     <h5 class="card-title">Gotong Royong di Sekolah, Bantu Anak Segera Kembali ke Sekolah</h5>
-                    <p class="card-text">Jika anak kita ditanya apa mimpinya pasti jawabnya saya ingin kembali belajar di
+                    <p class="card-text">Jika anak kita ditanya apa mimpinya pasti jawabnya saya ingin kembali belajar
+                      di
                       sekolah. Saya ingin bertemu dengan teman-teman . . .</p>
                   </div>
                 </div>
               </a>
             </div>
-            <div class="col-4">
+            <div class="col-lg-4">
               <a href="readmore.html">
                 <div class="card">
                   <img src="assets/image/beranda/artikel-beranda.png" class="card-img-top" alt="...">
                   <div class="card-body text-center">
                     <a href="#" class="btn rounded-5 py-2 px-4 text-white">12 Desember 2021</a>
                     <h5 class="card-title">Gotong Royong di Sekolah, Bantu Anak Segera Kembali ke Sekolah</h5>
-                    <p class="card-text">Jika anak kita ditanya apa mimpinya pasti jawabnya saya ingin kembali belajar di
+                    <p class="card-text">Jika anak kita ditanya apa mimpinya pasti jawabnya saya ingin kembali belajar
+                      di
                       sekolah. Saya ingin bertemu dengan teman-teman . . .</p>
                   </div>
                 </div>
               </a>
             </div>
-            <div class="col-4">
+            <div class="col-lg-4">
               <a href="readmore.html">
                 <div class="card">
                   <img src="assets/image/beranda/artikel-beranda.png" class="card-img-top" alt="...">
                   <div class="card-body text-center">
                     <a href="#" class="btn rounded-5 py-2 px-3 text-white">12 Desember 2021</a>
                     <h5 class="card-title">Gotong Royong di Sekolah, Bantu Anak Segera Kembali ke Sekolah</h5>
-                    <p class="card-text">Jika anak kita ditanya apa mimpinya pasti jawabnya saya ingin kembali belajar di
+                    <p class="card-text">Jika anak kita ditanya apa mimpinya pasti jawabnya saya ingin kembali belajar
+                      di
                       sekolah. Saya ingin bertemu dengan teman-teman . . .</p>
                   </div>
                 </div>
@@ -303,7 +322,10 @@
   </div>
   <!-- end of footer -->
 
-  <script src="/assets/js/script-2.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+    crossorigin="anonymous"></script>
+  <script src="\assets\js\script-2.js"></script>
 </body>
 
 </html>
