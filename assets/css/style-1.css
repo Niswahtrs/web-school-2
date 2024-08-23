@@ -263,11 +263,6 @@ body {
   padding-top: 3rem;
 }
 
-.title-doc {
-  display: flex;
-  justify-content: space-between;
-}
-
 .title-doc h1 {
   margin: 0;
   font-weight: 700;
@@ -276,8 +271,9 @@ body {
 .title-doc strong {
   background-color: #F2B828;
   align-items: center;
-  width: fit-content;
-  padding: 12px;
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 30px;
 }
 
 .doc {
@@ -434,10 +430,6 @@ body {
   line-height: 36px;
 }
 
-.title-civitas {
-  display: flex;
-  justify-content: space-between;
-}
 
 .title-civitas h1 {
   margin: 0;
@@ -445,6 +437,10 @@ body {
   color: #19245F;
   letter-spacing: 0.03em;
   text-align: left;
+}
+
+.tombol {
+  text-align: end;
 }
 
 .title-civitas strong {
@@ -714,6 +710,28 @@ footer .container .sec p {
     width: 100%;
     height: 265px;
   }
+
+  footer {
+    padding: 40px 50px;
+  }
+
+  footer .container {
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 20px;
+  }
+
+  footer .container .sec p {
+    width: 90%;
+    font-size: 18px;
+  }
+
+  footer .container .sec h5 {
+    font-size: 20px;
+  }
+
+  .copyright {
+    padding: 15px 50px;
+  }
 }
 
 @media screen and (max-width: 768px){
@@ -724,37 +742,30 @@ footer .container .sec p {
   }
 
   #hero .title-hero {
-    margin-top: 8%;
+    margin-top: 2%;
     align-items: center;
-    justify-content: center;
   }
 
   #hero .title-hero h1 {
     line-height: 30px;
     font-size: 24px;
-    padding-right: 0px;
-    text-align: center;
+    padding-right: 50px;
   }
 
   #hero .title-hero p {
     text-align: justify;
-    padding-right: 0px;
+    padding-right: 50px;
     font-size: 12px;
-    text-align: center;
   }
 
   #hero .title-hero button {
     font-size: 12px;
     margin: 10px 0px;
-    text-align: center;
-    
-    
   }
 
   #hero .row .img img {
     transform: translateX(-45%) translateY(-60%);
     width: 60%;
-    opacity: 0;
   }
 
   .wave3 {
@@ -816,6 +827,15 @@ footer .container .sec p {
     border-radius: 24px;
   }
 
+  .title-doc h1 {
+    font-size: 30px;
+    text-align: center;
+  }
+
+  .doc-sekolah h5 {
+    text-align: center;
+  }
+
   .card-article .card-body a.btn {
     background-color: #AE39FF;
     transform: translateY(-50%);
@@ -827,28 +847,19 @@ footer .container .sec p {
   #hero-tentang .container {
     height: 454px;
   }
-
-  #hero-tentang .title-hero {
-    margin-top: 20%;
-    text-align: center;
-  }
   
   #hero-tentang .title-hero h1 {
     font-size: 20px;
     padding-right: 0px;
-    text-align: center;
   }
   
   #hero-tentang .title-hero p {
     font-size: 15px;
-    text-align: center;
     padding-right: 0;
   }
   
   #hero-tentang .row .img img {
-    transform: translateX(-10%) translateY(5%);
-    width: 80%;
-    opacity: 0;
+    transform: translateX(-5%) translateY(8%);
   }
 
   /* civitas */
@@ -858,6 +869,55 @@ footer .container .sec p {
   .card-guru img {
     width: 100%;
     height: 710px;
+  }
+
+  #civitas h5 {
+    padding-top: 3rem;
+    line-height: 36px;
+    text-align: center;
+  }
+
+  .title-civitas h1 {
+    margin: 0;
+    font-weight: 700;
+    color: #19245F;
+    letter-spacing: 0.03em;
+    text-align: center;
+  }
+
+  .tombol {
+    text-align: center;
+    margin-top: 1rem;
+  }
+  
+  .title-civitas strong {
+    background-color: #F2B828;
+    align-items: center;
+    text-align: center;
+    font-size: 15px;
+    line-height: 30px;
+  }
+
+  footer {
+    padding: 30px 30px;
+  }
+
+  footer .container {
+    grid-template-columns: 1fr;
+    grid-gap: 30px;
+  }
+
+  footer .container .sec p {
+    width: 100%;
+    font-size: 16px;
+  }
+
+  footer .container .sec h5 {
+    font-size: 18px;
+  }
+
+  .copyright {
+    padding: 15px 30px;
   }
 }
 
@@ -954,8 +1014,6 @@ footer .container .sec p {
 
   .title-doc {
     display: flex;
-    justify-content: space-between;
-    flex-direction: column;
   }
 
   .title-doc strong{
@@ -1019,7 +1077,7 @@ footer .container .sec p {
   } 
   .card-guru img {
     width: 100%;
-    height: 391px;
+    height: auto;
   }
 
   #civitas h5 {
@@ -1039,7 +1097,12 @@ footer .container .sec p {
     font-weight: 700;
     color: #19245F;
     letter-spacing: 0.03em;
-    text-align: left;
+    text-align: center;
+  }
+
+  .tombol {
+    text-align: center;
+    margin-top: 1rem;
   }
   
   .title-civitas strong {
@@ -1052,5 +1115,27 @@ footer .container .sec p {
 
   .card {
     padding-bottom: 2rem;
+  }
+
+  footer {
+    padding: 20px 20px;
+  }
+
+  footer .container {
+    grid-template-columns: 1fr;
+    grid-gap: 20px;
+  }
+
+  footer .container .sec p {
+    width: 100%;
+    font-size: 14px;
+  }
+
+  footer .container .sec h5 {
+    font-size: 16px;
+  }
+
+  .copyright {
+    padding: 10px 20px;
   }
 }
