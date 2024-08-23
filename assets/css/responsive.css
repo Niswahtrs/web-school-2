@@ -10,16 +10,16 @@
     width: 80%;
   }
 
+  .galeri {
+    margin-top: -60px;
+  }
+
   .icon-galeri2 {
     width: 100%;
     height: auto;
   }
 
   /* Responsive kontak */
-  .hero-tagline-kontak {
-    transform: translateY(-20%);
-  }
-
   .hero-tagline-kontak h1 {
     font-size: 48px;
   }
@@ -30,10 +30,13 @@
   }
 
   .icon-kontak3 {
-    width: 450px;
+    width: 100%;
     height: auto;
     margin-left: 0px;
-    transform: translateY(-50%);
+  }
+
+  .kontak {
+    margin-top: -30px;
   }
 
   /* Responsive Footer */
@@ -73,10 +76,14 @@
   }
 
   .icon-galeri2 {
-    width: 100%;
+    width: 80%;
     height: auto;
-    margin-top: -50px;
+    margin-top: -80px;
     margin-left: 0;
+  }
+
+  .galeri {
+    padding: 50px;
   }
 
   .judul {
@@ -89,27 +96,26 @@
   }
 
   /* Responsive Kontak */
-  .hero-tagline-kontak {
-    text-align: center;
-    transform: translateY(-50%);
-  }
-
   .hero-tagline-kontak h1 {
     font-size: 28px;
+    margin-top: 30px;
   }
 
   .hero-tagline-kontak p {
     font-size: 16px;
     width: 90%;
-    margin: 0 auto 40px auto;
   }
 
   .icon-kontak3 {
-    width: 350px;
+    width: 80%;
     height: auto;
     transform: translateY(-30%);
     margin-left: auto;
     margin-right: auto;
+  }
+
+  .kontak {
+    margin-top: -50px;
   }
 
   /* Responsive footer */
@@ -152,9 +158,11 @@
   }
 
   .icon-galeri2 {
-    width: 100%;
+    width: 60%;
     height: auto;
-    text-align: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
   }
 
   .judul {
@@ -166,15 +174,19 @@
     font-size: 16px;
   }
 
+  .galeri {
+    padding: 0 70px;
+    margin-top: -150px;
+  }
+
   /* Responsive Kontak */
   .hero-tagline-kontak {
     text-align: center;
-    margin-top: 20px;
-    transform: translateY(70%);
   }
 
   .hero-tagline-kontak h1 {
     font-size: 28px;
+    margin-top: 10px;
   }
 
   .hero-tagline-kontak p {
@@ -182,22 +194,20 @@
     width: 100%;
   }
 
-  .icon-kontak3 {
-    width: 100%;
-    height: auto;
-    text-align: center;
-    margin-top: 40px;
-  }
-
   .icon-kontak2 {
     display: none; /* Menghilangkan layer background untuk layar kecil*/
   }
 
   .icon-kontak3 {
-    width: 100%;
+    width: 60%;
     height: auto;
-    transform: translateY(0);
-    margin-left: 0;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .kontak {
+    margin-top: -50px;
   }
 
   /* Responsive footer */
