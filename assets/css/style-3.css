@@ -2,6 +2,7 @@ body {
   font-family: "Poppins", sans-serif;
   height: 100vh;
   width: 100%;
+  overflow-x: hidden;
 }
 
 * {
@@ -82,15 +83,13 @@ body {
   position: relative;
   width: 100%;
   height: 100vh;
-  overflow: hidden;
-  overflow-x: hidden;
 }
 
 .hero-bg {
   z-index: 1;
   position: absolute;
   width: 100%;
-  height: 100%;
+  /* height: 100%; */
 }
 
 .hero-tagline h1 {
@@ -121,11 +120,11 @@ body {
   width: 100%;
   height: auto;
   margin-left: -20px;
-  transform: translateY(-2%);
+  transform: translateY(11%);
 }
 
 .galeri {
-  margin-top: 50px;
+  margin-top: 150px;
   margin-bottom: 100px;
 }
 
@@ -133,7 +132,7 @@ body {
   font-size: 40px;
   font-weight: 700;
   color: #19245f;
-  margin-bottom: 2px;
+  margin-bottom: 20px;
 }
 
 .sub-judul {
@@ -167,7 +166,7 @@ body {
 
 /* Style Kontak */
 .hero-tagline-kontak {
-  transform: translateY(-40%);
+  transform: translateY(35%);
 }
 
 .hero-tagline-kontak h1 {
@@ -188,6 +187,7 @@ body {
 .icon-kontak2 {
   z-index: 0;
   margin-left: 0px;
+  position: absolute;
   width: 100%;
 }
 
@@ -195,11 +195,11 @@ body {
   width: 100%;
   height: auto;
   margin-left: 15px;
-  transform: translateY(-70%);
+  margin-top: 120px;
 }
 
 .kontak {
-  margin-top: 50px;
+  margin-top: 150px;
   margin-bottom: 100px;
 }
 
@@ -221,6 +221,10 @@ body {
   font-size: 20px;
   text-decoration: none;
   color: #2e334e;
+  margin: 0;
+}
+.kontak-item .email {
+  width: 300px;
 }
 
 .form-control {
