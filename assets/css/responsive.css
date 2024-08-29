@@ -1,4 +1,10 @@
 @media screen and (max-width: 992px) {
+  /* Navbar */
+
+  /* .sidebar {
+    background-color: linear-gradient(to right, #734192, #9b309d);
+  } */
+
   /* Responsive Galeri */
   .hero-tagline h1 {
     font-size: 48px;
@@ -88,7 +94,7 @@
   }
 
   .galeri {
-    padding: 200px 50px 0 50px;
+    padding: 250px 50px 0 50px;
   }
 
   .judul {
@@ -120,7 +126,7 @@
   }
 
   .kontak {
-    margin-top: -50px;
+    margin-top: 50px;
   }
 
   /* Responsive footer */
@@ -171,12 +177,21 @@
   }
 
   .judul {
-    font-size: 32px;
+    font-size: 25px;
     margin-bottom: -10px;
   }
 
   .sub-judul {
-    font-size: 16px;
+    font-size: 14px;
+  }
+
+  .kontak-item a {
+    font-size: 14px;
+  }
+
+  .icon-kontak img {
+    width: 30px;
+    height: 30px;
   }
 
   .galeri {
