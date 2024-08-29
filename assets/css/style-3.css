@@ -2,7 +2,6 @@ body {
   font-family: "Poppins", sans-serif;
   height: 100vh;
   width: 100%;
-  overflow-x: hidden;
 }
 
 * {
@@ -45,6 +44,13 @@ body {
 
 .bg-transparent {
   transition: all ease-in-out 0.3s;
+}
+
+.navbar-collapse.show {
+  background: linear-gradient(to right, #734192, #9b309d);
+  width: 100%;
+  transition: all ease-in-out 0.3s;
+  margin: 0;
 }
 
 .button-primary {
@@ -138,6 +144,7 @@ body {
   font-weight: 400;
   color: #4facf6;
   margin-top: 80px;
+  text-align: center;
 }
 
 .card-galeri h3 {
