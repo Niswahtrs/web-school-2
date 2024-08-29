@@ -1,10 +1,4 @@
 @media screen and (max-width: 992px) {
-  /* Navbar */
-
-  /* .sidebar {
-    background-color: linear-gradient(to right, #734192, #9b309d);
-  } */
-
   /* Responsive Galeri */
   .hero-tagline h1 {
     font-size: 48px;
@@ -69,6 +63,16 @@
   }
 }
 
+@media screen and (max-width: 884px) {
+  .kontak {
+    margin-top: -500px;
+  }
+
+  .galeri {
+    margin-top: -500px;
+  }
+}
+
 @media screen and (max-width: 768px) {
   /* Responsive galeri */
   .hero {
@@ -94,7 +98,7 @@
   }
 
   .galeri {
-    padding: 250px 50px 0 50px;
+    margin-top: 180px;
   }
 
   .judul {
@@ -126,7 +130,7 @@
   }
 
   .kontak {
-    margin-top: 50px;
+    margin-top: 100px;
   }
 
   /* Responsive footer */
@@ -195,7 +199,8 @@
   }
 
   .galeri {
-    padding: 100px 30px 0 30px;
+    margin-top: 50px;
+    padding: 0 20px 0 20px;
   }
 
   /* Responsive Kontak */
