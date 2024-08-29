@@ -30,89 +30,243 @@
             width: 80%;
         }
     
-        .content1 {
-            padding: 0px 50px;
-        }
+        .content1 .container{
+            height: 600px;
+            padding: 20px;
+            margin-left: 40px;
+            margin-right: 40px;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            align-items: center;
+            gap: 40px;
+          }
     
-        .content1 .row {
-            padding-left: 20px;
-        }
+          .content1 .container img{
+            max-height: 95%;
+            transform: translateY(8%) translateX(10%);
+          }
     
-        img.kartun1 {
-            max-width: 450px;
-            margin-left: 10px;
-        }
+          .hero-text{
+            padding-left: 0px;
+          }
+    }
     
-        .content1 h2 {
-            font-size: 35px;
-        }
-    
-        .content1 p {
-            font-size: 16px;
+    @media (max-width: 1000px){
+        .content2 .row{
+            margin-top: 100px;
+            padding-inline: 100px;
         }
     }
     
-    @media (max-width: 992px) {
+    @media (max-width: 900px) {
         .vector1 {
             width: 80%;
         }
     
-        .content1 {
-            padding: 0px 30px;
-        }
+        .content1 .container{
+            height: 500px;
+            margin-left: 40px;
+            margin-right: 40px;
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+          }
     
-        .content1 .row {
-            padding-left: 10px;
-        }
-    
-        img.kartun1 {
-            max-width: 400px;
-            margin-left: 5px;
-        }
-    
-        .content1 h2 {
-            font-size: 40px;
+          .content1 .container img{
+            align-items: center;
+            max-height: 75%;
             margin-top: 0px;
-        }
+            padding-bottom: 0px;
+            padding-left: 0px;
+            margin: 0 auto; /* Memusatkan gambar horizontal */
+            transform: translateY(-5%);
+            left: 0%;   
+          }
     
-        .content1 p {
-            font-size: 16px;
+          .hero-text h1{
+            margin-top: 0px;
+            color: #ffffff;
+            font-size: 40px;
+            font-weight: bolder;
+          }
+          
+          .hero-text p{
+            font-size: 18px;
+            color:#ffffff;
+            margin-top: 10px;
+          }
+    
+          /* content2 */
+    
+          .content2 .row{
+            margin-top: 50px;
+            padding-inline: 20px;
         }
     }
     
-    @media (max-width: 768px) {
+    @media (max-width: 800px) {
         .vector1 {
-            width: 100%;
+            width: 80%;
         }
     
-        .content1 {
-            padding: 40px 100px;
+        .content1 .container{
+            height: 500px;
+            margin-left: 40px;
+            margin-right: 40px;
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+          }
+    
+          .content1 .container img{
+            align-items: center;
+            max-height: 75%;
+            margin-top: 0px;
+            padding-bottom: 0px;
+            padding-left: 0px;
+            margin: 0 auto; /* Memusatkan gambar horizontal */
+            transform: translateY(-5%);
+            left: 0%;   
+          }
+    
+          .hero-text h1{
+            margin-top: 0px;
+            color: #ffffff;
+            font-size: 25px;
+            font-weight: bolder;
+          }
+          
+          .hero-text p{
+            font-size: 14px;
+            color:#ffffff;
+            margin-top: 10px;
+          }
+    
+          /* content2 */
+    
+          .content2 .row{
+            margin-top: 0px;
+            padding-inline: 20px;
+        }
+    }
+    
+    @media (max-width: 700px) {
+        .vector1 {
+            width: 80%;
         }
     
-        .content1 .row {
+        .content1 .container{
+            height: 600px;
+            margin-left: 40px;
+            margin-right: 40px;
+            display: flex;
             flex-direction: column;
-            padding-left: 0;
-        }
+            align-items: center;
+          }
     
-        .content1 .col-5 {
-            margin-top: 50px;
-        }
+          .content1 .container img{
+            align-items: center;
+            max-height: 70%;
+            margin-top: 0px;
+            padding-bottom: 50px;
+            padding-left: 0px;
+            margin: 0 auto; /* Memusatkan gambar horizontal */
+            transform: none;
+            left: 0%;
+          }
     
-        img.kartun1 {
-            max-width: 500px;
-            margin-left: 0;
-            transform: translateY(0);
-        }
+          .hero-text{
+            text-align: center;
+          }
     
-        .content1 h2 {
-            font-size: 40px;
-        }
-    
-        .content1 p {
+          .hero-text h1{
+            margin-top: 80px;
+            color: #ffffff;
+            font-size: 25px;
+            font-weight: bolder;
+            text-align: center;
+          }
+          
+          .hero-text p{
             font-size: 18px;
+            color:#ffffff;
+            margin-top: 10px;
+            text-align: center;
+          }
+    
+          /* content2 */
+    
+          .content2 .row{
+            margin-top: 200px;
+            padding-inline: 20px;
+        }
+    }
+    
+    @media (max-width: 600px) {
+    
+        .background-image .bgimage {
+            width: 105%;
+            height: 60%;
+            overflow: hidden;
+            position: absolute;
+            left: 0%;
+            z-index: -1;
         }
     
-        .tanggal-card {
+        .vector1 {
+            width: 600px;
+        }
+    
+        .content1 .container{
+            height: 450px;
+            padding: 0px;
+            margin-left: 20px;
+            margin-right: 20px;
+            display: flex;
+            flex-direction: column;
+          }
+    
+          .content1 .container img{
+            align-items: center;
+            max-height: 60%;
+            margin-top: 0px;
+            padding-bottom: 50px;
+            padding-left: 0px;
+            margin: 0 auto; /* Memusatkan gambar horizontal */
+            transform: none;
+            left: 0%;
+          }
+    
+          .content1 .hero-text{
+            padding-top: 40px;
+            padding-right: 15px;
+          }
+    
+          .hero-text h1{
+            margin-top: 40px;
+            color: #ffffff;
+            font-size: 25px;
+            font-weight: bolder;
+            text-align: center;
+          }
+          
+          .hero-text p{
+            font-size: 15px;
+            color:#ffffff;
+            margin-top: 10px;
+            text-align: center;
+          }
+    
+          /* content2 */
+    
+          .content2 .row{
+            align-content: center;
+            margin-top: 200px;
+            padding-inline: 20px;
+        }
+    
+        /* .tanggal-card {
             display: block;
             background-color: #AE39FF;
             color: #ffffff;
@@ -120,44 +274,13 @@
             font-size: 14px;
             padding: 5px 15px;
             border-radius: 50px;
-            text-align: center; /* Memusatkan teks tanggal */
+            text-align: center; 
             position: absolute;
-            bottom: 0; /* Menempel pada bagian bawah card */
+            bottom: 0;
             left: 50%;
             transform: translateX(-50%) translateY(-800%);
             width: auto;
-        }
-    }
-    
-    @media (max-width: 576px) {
-        .vector1 {
-            width: 80%;
-        }
-    
-        .content1 {
-            padding: 10px 10px;
-        }
-    
-        .content1 .row {
-            flex-direction: column;
-            padding-left: 0;
-        }
-    
-        .content1 .col-5 {
-            margin-top: 30px;
-        }
-    
-        img.kartun1 {
-            max-width: 250px;
-        }
-    
-        .content1 h2 {
-            font-size: 20px;
-        }
-    
-        .content1 p {
-            font-size: 10px;
-        }
+        } */
     }
     
     /* content2 */
@@ -165,7 +288,7 @@
         .content2 .row {
             margin-left: 15px;
             margin-right: 15px;
-            margin-top: 100px; /* Sesuaikan jarak atas untuk perangkat kecil */
+            margin-top: 0px; /* Sesuaikan jarak atas untuk perangkat kecil */
         }
     
         .content2 .col-6 {
@@ -277,9 +400,41 @@
             transform: translateX(-50%) translateY(-500%);
             width: auto;
         }
+    
+        .content14 .readmore{
+            margin-top: 60px;
+            text-decoration: none;
+            color: rgb(96, 192, 255);
+            font-weight: bold;
+        }
+    
+        .content14 .readmore1{
+            margin-top: 80px;
+            text-decoration: none;
+            color: rgb(96, 192, 255);
+            font-weight: bold;
+        }
     }
     
-    @media (max-width: 950px){
+    @media (max-width: 930px) {
+        .tanggal-card {
+            display: block;
+            background-color: #AE39FF;
+            color: #ffffff;
+            font-family: Poppins, sans-serif;
+            font-size: 10px;
+            padding: 5px 15px;
+            border-radius: 50px;
+            text-align: center; /* Memusatkan teks tanggal */
+            position: absolute;
+            bottom: 0; /* Menempel pada bagian bawah card */
+            left: 50%;
+            transform: translateX(-50%) translateY(-300%);
+            width: auto;
+        }
+    }
+    
+    @media (max-width: 900px){
         .tanggal-card {
             display: block;
             background-color: #AE39FF;
@@ -306,7 +461,7 @@
         }
     }
     
-    @media (max-width: 808px){
+    @media (max-width: 800px){
         .tanggal-card {
             display: block;
             background-color: #AE39FF;
@@ -333,7 +488,7 @@
         }
     }
     
-    @media (max-width: 767px){
+    @media (max-width: 700px){
         .tanggal-card {
             display: block;
             background-color: #AE39FF;
@@ -373,8 +528,8 @@
     
     @media (max-width: 600px){
         .content14 .gambar3{
-            padding-left: 50px;
-            padding-right: 50px;    
+            padding-left: 30px;
+            padding-right: 30px;    
         }
     
         .tanggal-card {
