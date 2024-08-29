@@ -250,6 +250,10 @@ footer .container .sec p {
 
 /* content3 */
 
+.content14{
+  margin-top: 100px;
+}
+
 .content14 .row{
     margin-top: 50px;
     padding-top: 0px;
@@ -265,10 +269,8 @@ footer .container .sec p {
 }
 
 .content14 .card{
-  padding: 15px; /* Atur padding agar konten tidak keluar dari card */
-  margin-bottom: 20px;
-  margin-bottom: 30px; /* Jarak antar card */
-  box-sizing: border-box; 
+  max-height: fit-content;
+  padding: 15px;
     border-radius: 7%;
     border: none;
     background: #ffffff;
@@ -303,6 +305,7 @@ footer .container .sec p {
 .content14 .card-body p .text{
     font-family: Poppins;
     margin-top: 5px;
+    margin-bottom: 0px;
     font-size: 16px;
     color: #1C2661;
     text-align: justify;
@@ -358,6 +361,7 @@ footer .container .sec p {
 
 .content4 img {
     margin-top: 150px;
+    align-items: center;
     width: 85%; /* Lebar gambar 75% dari lebar container */
     height: auto; /* Menjaga rasio aspek gambar */
     max-width: 100%; /* Memastikan gambar tidak melebihi lebar container */
