@@ -81,14 +81,14 @@ body {
 
 .title-hero {
   color: white;
-  transform: translateY(-10%);
+  transform: translateY(-20%);
 }
 
 .title-hero h1 {
   font-weight: bold;
   line-height: 60px;
   font-size: 40px;
-  text-align: justify;
+  width: 100%;
   padding-right: 120px;
 }
 
@@ -107,9 +107,9 @@ body {
 }
 
 #hero .row .img img {
-  width: 65%;
+  width: 70%;
   z-index: 3;
-  transform: translateX(-40%) translateY(-55%);
+  transform: translateX(-50%) translateY(-61%);
   position: absolute;
 
 }
@@ -397,7 +397,6 @@ body {
   color: #3A3B41;
   text-align: justify;
   line-height: 42px;
-
 }
 
 /* tentang: keunggulan */
@@ -1041,6 +1040,9 @@ footer .container .sec p {
   .doc-sekolah h5 {
     text-align: center;
   }
+  .doc-sekolah p {
+    text-align: center;
+  }
   .doc img {
     width: 100%;
     height: 412px;
@@ -1082,6 +1084,16 @@ footer .container .sec p {
   #hero-tentang .row .img img {
     transform: translateX(50%) translateY(0%);
     width: 50%;
+  }
+
+  #profile p {
+    text-align: center;
+  }
+  #profile h1 {
+    text-align: center;
+  }
+  #profile h5 {
+    text-align: center;
   }
 
   /* keunggulan-tentang */
