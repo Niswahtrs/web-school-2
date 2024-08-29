@@ -125,7 +125,7 @@
             margin-top: 0px;
             padding-bottom: 0px;
             padding-left: 0px;
-            margin: 0 auto;
+            margin: 0 auto; /* Memusatkan gambar horizontal */
             transform: translateY(-5%);
             left: 0%;   
           }
@@ -328,27 +328,27 @@
             font-size: 18px; /* Ukuran font yang lebih kecil untuk judul */
         }
     }
-
+    
     /* responsive card artikel */
-@media (max-width: 1400px){
-    .content14 .readmore{
-        padding-left: 4%;
-        margin-top: 0px;
-        text-decoration: none;
-        color: rgb(96, 192, 255);
-        font-weight: bold;
-        display: block;
+    @media (max-width: 1400px){
+        .content14 .readmore{
+            padding-left: 4%;
+            margin-top: 0px;
+            text-decoration: none;
+            color: rgb(96, 192, 255);
+            font-weight: bold;
+            display: block;
+        }
+    
+        .content14 .readmore1{
+            padding-left: 4%;
+            margin-top: 0px;
+            text-decoration: none;
+            color: rgb(96, 192, 255);
+            font-weight: bold;
+            display: block;
+        }
     }
-
-    .content14 .readmore1{
-        padding-left: 4%;
-        margin-top: 0px;
-        text-decoration: none;
-        color: rgb(96, 192, 255);
-        font-weight: bold;
-        display: block;
-    }
-}
     
     @media (max-width: 1115px){
         .tanggal-card {
@@ -453,7 +453,7 @@
             width: auto;
         }
     }
-
+    
     @media (max-width: 930px) {
         .tanggal-card {
             display: block;
@@ -544,7 +544,7 @@
         }
     
         .content14 .row{
-            margin-top: 50px;
+            margin-top: 0px;
             padding-top: 0px;
             padding-right: 0px;
             display: flex;
@@ -555,12 +555,12 @@
         .content14 .card{
             position: relative;
             padding-inline: 0px;
-            margin-bottom: 50px;
+            margin-bottom: 0px;
             border-radius: 7%;
             border: none;
             background: #ffffff;
         }
-
+    
         .content14 .readmore{
             padding-left: 0%;
             margin-top: 0px;
@@ -649,6 +649,73 @@
         }
     }
     
+    @media (max-width: 400px){
+        .content14 .gambar3{
+            padding-left: 30px;
+            padding-right: 30px;    
+        }
+    
+        .tanggal-card {
+            display: block;
+            background-color: #AE39FF;
+            color: #ffffff;
+            font-family: Poppins, sans-serif;
+            font-size: 12px;
+            padding: 5px 15px;
+            border-radius: 50px;
+            text-align: center; /* Memusatkan teks tanggal */
+            bottom: 0; /* Menempel pada bagian bawah card */
+            left: 50%;
+            transform: translateX(-50%) translateY(-450%);
+            width: auto;
+        }
+    
+        .content14 .row{
+            margin-top: 0px;
+            padding-top: 0px;
+            padding-right: 0px;
+            display: flex;
+            flex-wrap: wrap;
+            line-gap-override: 0px;
+        }
+    
+        .content14 .card{
+            position: relative;
+            padding-inline: 0px;
+            margin-top: 30px;
+            margin-bottom: 10px;
+            border-radius: 7%;
+            border: none;
+            background: #ffffff;
+        }
+    
+        .content14 .card-body h4{
+            margin-top: 5px;
+            font-family: Poppins;
+            font-size: 18px;
+            color: #1C2661;
+            font-weight: 950;
+        }
+    
+        .content14 .readmore{
+            padding-left: 0%;
+            margin-top: 0px;
+            text-decoration: none;
+            color: rgb(96, 192, 255);
+            font-weight: bold;
+            display: block;
+        }
+    
+        .content14 .readmore1{
+            padding-left: 0%;
+            margin-top: 30px;
+            text-decoration: none;
+            color: rgb(96, 192, 255);
+            font-weight: bold;
+            display: block;
+        }
+    }
+    
     /* responsive readmore */
     @media (max-width: 862px){
         .content5 .tanggal {
@@ -667,7 +734,7 @@
             padding-inline: 50px;
         }
     }
-
+    
     @media (max-width: 600px) {
         .content5 .tanggal {
             position: relative;
@@ -707,9 +774,9 @@
             padding-left: 5px;
         }
     }
-
+    
     @media (max-width: 500px) {
-
+    
         .content5 .tanggal {
             position: relative;
             background-color: #AE39FF;
@@ -731,5 +798,26 @@
         .content5 .row{
             padding-top: 30px;
             padding-inline: 30px;
+        }
+    }
+    
+    @media (max-width: 400px) {
+    
+        .content5 .tanggal {
+            position: relative;
+            background-color: #AE39FF;
+            color: #ffffff;
+            font-family: Poppins, sans-serif;
+            font-size: 8px;
+            padding: 3px 10px;
+            border-radius: 50px;
+            text-decoration: none;
+        }
+    
+        .content5 .row{
+            padding-top: 10px;
+            padding-inline: 30px;
+            padding-right: 5px;
+            padding-left: 5px;
         }
     }
